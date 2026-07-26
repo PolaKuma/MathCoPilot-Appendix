@@ -4,14 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-    inputs:
-      source_run_id:
-        description: Repackage the Pages artifact from this completed workflow run instead of rebuilding
-        required: false
-        type: string
 
 permissions:
-  actions: read
   contents: read
   pages: write
   id-token: write
@@ -22,7 +16,6 @@ concurrency:
 
 jobs:
   build:
-    if: github.event_name != 'workflow_dispatch' || inputs.source_run_id == ''
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
@@ -43,26 +36,13 @@ jobs:
 
       - name: Generate doc-gen4 documentation
         run: |
-          lake build Textbook:docs
-          lake build AuditExp1Exp2:docs
+          lake build EnumerationTheory:docs
+          lake build DG:docs
 
       - name: Assemble Pages site
         run: |
           mkdir -p site/docs
           cp -a .lake/build/doc/. site/docs/
-          cat > site/docs/index.html <<'HTML'
-          <!doctype html>
-          <html lang="en">
-          <head>
-            <meta charset="utf-8">
-            <meta http-equiv="refresh" content="0; url=Textbook.html">
-            <title>MathCoPilot Lean Documentation</title>
-          </head>
-          <body>
-            <p><a href="Textbook.html">Open the MathCoPilot Lean documentation.</a></p>
-          </body>
-          </html>
-          HTML
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
@@ -85,52 +65,12 @@ jobs:
         with:
           path: site
 
-  repackage:
-    if: github.event_name == 'workflow_dispatch' && inputs.source_run_id != ''
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download a previously generated Pages artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-          path: previous
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}
-          run-id: ${{ inputs.source_run_id }}
-
-      - name: Add the documentation directory index
-        run: |
-          mkdir -p site
-          tar -xf previous/artifact.tar -C site
-          cat > site/docs/index.html <<'HTML'
-          <!doctype html>
-          <html lang="en">
-          <head>
-            <meta charset="utf-8">
-            <meta http-equiv="refresh" content="0; url=Textbook.html">
-            <title>MathCoPilot Lean Documentation</title>
-          </head>
-          <body>
-            <p><a href="Textbook.html">Open the MathCoPilot Lean documentation.</a></p>
-          </body>
-          </html>
-          HTML
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload corrected Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
-
   deploy:
-    if: always() && (needs.build.result == 'success' || needs.repackage.result == 'success')
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: [build, repackage]
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
