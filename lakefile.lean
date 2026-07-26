@@ -28,9 +28,9 @@ lean_lib EnumerationTheory where
     `Chapter07,
     `Chapter08,
     `Chapter09,
-    `Textbook,
-    `MCMC
+    `Textbook
   ]
+  globs := #[.submodules `MCMC]
 
 @[default_target]
 lean_lib DG where
