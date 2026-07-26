@@ -26,6 +26,25 @@ The Lean sources are published byte-for-byte as supplied for this appendix.
 Repository packaging, continuous integration, and documentation generation do
 not rename, reformat, or otherwise rewrite the existing `.lean` files.
 
+The paper's Table 3 reports the narrower post-deployment snapshot comprising
+the two DG workloads and textbook Chapters 0--4:
+
+| Workload | Lean files | Lean LoC |
+|---|---:|---:|
+| DG-1 | 8 | 3,917 |
+| DG-2 | 12 | 3,948 |
+| Chapter 0 | 32 | 13,395 |
+| Chapter 1 | 10 | 5,538 |
+| Chapter 2 | 265 | 92,024 |
+| Chapter 3 | 15 | 6,261 |
+| Chapter 4 | 54 | 15,070 |
+| **Paper reporting snapshot** | **396** | **140,153** |
+
+Those figures reproduce Table 3 exactly. They count the workload bodies and
+exclude aggregate entry modules. The complete repository snapshot is larger
+because it additionally includes Chapters 5--9, MCMC material, tests, aggregate
+entries, the DG audit entry, and shared boundary files:
+
 | Scope | Lean files | Physical lines | Nonblank lines |
 |---|---:|---:|---:|
 | `EnumerationTheory/Lean` | 487 | 154,796 | 144,599 |
