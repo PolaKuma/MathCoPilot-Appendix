@@ -28,4 +28,4 @@ jobs:
         run: python3 scripts/source_integrity.py
 
       - name: Build public appendix entries
-        run: lake -j 2 build AuditExp1Exp2 Textbook
+        run: lake build AuditExp1Exp2 Textbook

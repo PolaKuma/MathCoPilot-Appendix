@@ -32,12 +32,12 @@ jobs:
         run: python3 scripts/source_integrity.py
 
       - name: Build public appendix entries
-        run: lake -j 2 build AuditExp1Exp2 Textbook
+        run: lake build AuditExp1Exp2 Textbook
 
       - name: Generate doc-gen4 documentation
         run: |
-          lake -j 2 build Textbook:docs
-          lake -j 2 build AuditExp1Exp2:docs
+          lake build Textbook:docs
+          lake build AuditExp1Exp2:docs
 
       - name: Assemble Pages site
         run: |
