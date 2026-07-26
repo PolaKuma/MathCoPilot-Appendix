@@ -1,0 +1,85 @@
+import Chapter02.HostKra.HostKraCartesianCube
+import Chapter02.HostKra.HostKraCentralChangeVariables
+import Chapter02.HostKra.HostKraCentralFiberSupremum
+import Chapter02.HostKra.HostKraConditionalTop
+import Chapter02.HostKra.HostKraContinuousCylinderReduction
+import Chapter02.HostKra.HostKraCubeComponentDynamics
+import Chapter02.HostKra.HostKraCubeDisintegration
+import Chapter02.HostKra.HostKraCubeDisintegrationComponentMean
+import Chapter02.HostKra.HostKraCubeDisintegrationFunctionMean
+import Chapter02.HostKra.HostKraCubeDisintegrationKernel
+import Chapter02.HostKra.HostKraCubeDisintegrationMean
+import Chapter02.HostKra.HostKraCubeDisintegrationMeasure
+import Chapter02.HostKra.HostKraCubeDisintegrationNull
+import Chapter02.HostKra.HostKraCubeDisintegrationSymmetry
+import Chapter02.HostKra.HostKraCubeFactors
+import Chapter02.HostKra.HostKraCubeFourSymmetry
+import Chapter02.HostKra.HostKraCubeRelative
+import Chapter02.HostKra.HostKraCubeSeminorm
+import Chapter02.HostKra.HostKraCubeSeminormDynamics
+import Chapter02.HostKra.HostKraCubeSeminormRecursion
+import Chapter02.HostKra.HostKraCubeSymmetry
+import Chapter02.HostKra.HostKraCubeThree
+import Chapter02.HostKra.HostKraCubeTwo
+import Chapter02.HostKra.HostKraDirectedInverseLimitReduction
+import Chapter02.HostKra.HostKraDualFunction
+import Chapter02.HostKra.HostKraDualFunctionFour
+import Chapter02.HostKra.HostKraDualSigma
+import Chapter02.HostKra.HostKraDualTop
+import Chapter02.HostKra.HostKraDualZ2
+import Chapter02.HostKra.HostKraDualZ3
+import Chapter02.HostKra.HostKraErgodicDecomposition
+import Chapter02.HostKra.HostKraErgodicRelativeJoining
+import Chapter02.HostKra.HostKraFifteenDualFactor
+import Chapter02.HostKra.HostKraFiniteCodeOrbitModel
+import Chapter02.HostKra.HostKraFiniteCoordinate
+import Chapter02.HostKra.HostKraFiniteCylinderDensity
+import Chapter02.HostKra.HostKraFiniteMinimalReduction
+import Chapter02.HostKra.HostKraFourfoldStructuredReduction
+import Chapter02.HostKra.HostKraFullyStructuredFiniteCode
+import Chapter02.HostKra.HostKraGowersCauchySchwarz
+import Chapter02.HostKra.HostKraGowersCauchySchwarzFour
+import Chapter02.HostKra.HostKraHallPetrescoCorrelation
+import Chapter02.HostKra.HostKraHallPetrescoDecompositionReduction
+import Chapter02.HostKra.HostKraHallPetrescoUniformMean
+import Chapter02.HostKra.HostKraInvariantMeanSubsequenceZero
+import Chapter02.HostKra.HostKraNilDecompositionReduction
+import Chapter02.HostKra.HostKraProgressionPairLimits
+import Chapter02.HostKra.HostKraRelativeJoining
+import Chapter02.HostKra.HostKraRelativeJoiningComplex
+import Chapter02.HostKra.HostKraRelativeMean
+import Chapter02.HostKra.HostKraSevenDualFactor
+import Chapter02.HostKra.HostKraStandardRelativeJoining
+import Chapter02.HostKra.HostKraStructuredApproximation
+import Chapter02.HostKra.HostKraStructuredRecurrence
+import Chapter02.HostKra.HostKraTorusHallPetrescoReduction
+import Chapter02.HostKra.HostKraU2Continuous
+import Chapter02.HostKra.HostKraU3Component
+import Chapter02.HostKra.HostKraU3ComponentFixed
+import Chapter02.HostKra.HostKraU3FourTermReversal
+import Chapter02.HostKra.HostKraU3IndicatorCharacteristic
+import Chapter02.HostKra.HostKraU3NonergodicFourTerm
+import Chapter02.HostKra.HostKraU3Nullspace
+import Chapter02.HostKra.HostKraU3OptimalProgressionDecay
+import Chapter02.HostKra.HostKraU3ProgressionDecay
+import Chapter02.HostKra.HostKraU3UniformBlockReduction
+import Chapter02.HostKra.HostKraU3ZeroSubsequence
+import Chapter02.HostKra.HostKraU4CartesianComponent
+import Chapter02.HostKra.HostKraU4CartesianProduct
+import Chapter02.HostKra.HostKraU4Characteristic
+import Chapter02.HostKra.HostKraU4GowersRecursion
+import Chapter02.HostKra.HostKraU4IndicatorCharacteristic
+import Chapter02.HostKra.HostKraU4Nullspace
+import Chapter02.HostKra.HostKraU4ProgressionDecay
+import Chapter02.HostKra.HostKraU4UniformNormSq
+import Chapter02.HostKra.HostKraUniformComponentIntegration
+import Chapter02.HostKra.HostKraZ2Characteristic
+import Chapter02.HostKra.HostKraZ2Factor
+import Chapter02.HostKra.HostKraZ3Characteristic
+
+/-!
+# Chapter 2 HostKra aggregate
+
+Imports every support module in `Chapter02.HostKra` for whole-directory
+compilation and repository-wide validation.
+-/

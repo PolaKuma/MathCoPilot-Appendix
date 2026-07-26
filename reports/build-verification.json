@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-07-27",
+  "environment": {
+    "lean": "4.28.0",
+    "mathlib_revision": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+    "doc_gen4_revision": "a41d5ebebfa77afe737fec8de8ad03fc8b08fdff"
+  },
+  "source_integrity": {
+    "lean_files": 511,
+    "physical_lines": 162882,
+    "nonblank_lines": 152235,
+    "aggregate_sha256": "0cc53625771977948cd03718846920f02360a9d9f674cf593191475e4149e091"
+  },
+  "targets": {
+    "Textbook": {
+      "result": "passed",
+      "jobs": 8239,
+      "note": "Build warnings include the documented sorry declarations."
+    },
+    "AuditExp1Exp2": {
+      "result": "passed",
+      "jobs": 2802,
+      "printed_axioms": {
+        "Exp1.main_theorem": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Exp2.main_theorem": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Exp1.global_main_theorem": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Exp2.standard_main_theorem": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Exp1.sobolev_global_main_theorem": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "Exp1.sobolev_global_main_theorem_DGSpace": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve every released Lean source byte-for-byte on all platforms.
+*.lean -text

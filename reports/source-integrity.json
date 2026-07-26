@@ -1,0 +1,3603 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-07-27",
+  "algorithm": "SHA-256 over each file; aggregate over sorted '<hash>  <path>\\n' records",
+  "aggregate_sha256": "0cc53625771977948cd03718846920f02360a9d9f674cf593191475e4149e091",
+  "totals": {
+    "files": 511,
+    "physical_lines": 162882,
+    "nonblank_lines": 152235,
+    "bytes": 6826418
+  },
+  "scopes": {
+    "DG": {
+      "files": 21,
+      "physical_lines": 7873,
+      "nonblank_lines": 7451
+    },
+    "EnumerationTheory": {
+      "files": 490,
+      "physical_lines": 155009,
+      "nonblank_lines": 144784
+    }
+  },
+  "files": [
+    {
+      "path": "DG/AuditExp1Exp2.lean",
+      "sha256": "bb82d262ced35a9c7ac12ae38a30827ee79178b7690eb9b90cd316a78f733f69",
+      "bytes": 271,
+      "physical_lines": 8,
+      "nonblank_lines": 7
+    },
+    {
+      "path": "DG/Exp1.lean",
+      "sha256": "69f17fe4378be306f162d47d137c8092ba1bc901587119af44dfdeba8aef7f22",
+      "bytes": 2917,
+      "physical_lines": 63,
+      "nonblank_lines": 59
+    },
+    {
+      "path": "DG/Exp1Core.lean",
+      "sha256": "31ea501c14e5e7fcb1ba84f59119300fc57aed6a96efc73a642f46256a26caef",
+      "bytes": 15805,
+      "physical_lines": 335,
+      "nonblank_lines": 304
+    },
+    {
+      "path": "DG/Exp1Differentiation.lean",
+      "sha256": "61fc80f5d714bff592482db5d7249107bb39b5cc4086969e2a89de3c9c06a73b",
+      "bytes": 16113,
+      "physical_lines": 390,
+      "nonblank_lines": 373
+    },
+    {
+      "path": "DG/Exp1Energy.lean",
+      "sha256": "b77ffbfad43c1011b48bf1d9285f1d5907b4986d5eef7b111d437a2700136f70",
+      "bytes": 39388,
+      "physical_lines": 851,
+      "nonblank_lines": 831
+    },
+    {
+      "path": "DG/Exp1GlobalL2.lean",
+      "sha256": "fcc0224f1433202695dc4701662dc244f3a1daa470ae89fe0fc54f1c72990074",
+      "bytes": 14017,
+      "physical_lines": 342,
+      "nonblank_lines": 322
+    },
+    {
+      "path": "DG/Exp1Norm.lean",
+      "sha256": "200ae186f12a989e20b3ab2fbe5c3d2db00dbb8dc064efa92791a4a80aa210e0",
+      "bytes": 2655,
+      "physical_lines": 69,
+      "nonblank_lines": 65
+    },
+    {
+      "path": "DG/Exp1Projection.lean",
+      "sha256": "dd9e2e1d22bdf878be6c53fe686a289ac7a7d17a8e14b81c5f3b2fccbd8fcd72",
+      "bytes": 62153,
+      "physical_lines": 1258,
+      "nonblank_lines": 1215
+    },
+    {
+      "path": "DG/Exp1SobolevSpace.lean",
+      "sha256": "f54362a8d172ccff1368b52ea171b84decf2bdc114928b4d9d6bf37764ef17d1",
+      "bytes": 26071,
+      "physical_lines": 609,
+      "nonblank_lines": 569
+    },
+    {
+      "path": "DG/Exp2.lean",
+      "sha256": "4977954280fa631f54473288acc2ec6496f87432a825d100af76dfb8fd40fcfc",
+      "bytes": 18968,
+      "physical_lines": 427,
+      "nonblank_lines": 405
+    },
+    {
+      "path": "DG/Exp2AffineMeasure.lean",
+      "sha256": "d2076c9452410d24f6eab829a38635335d7a98d266794a8596d92f5deb05f063",
+      "bytes": 6234,
+      "physical_lines": 146,
+      "nonblank_lines": 138
+    },
+    {
+      "path": "DG/Exp2BHProbe.lean",
+      "sha256": "4e17634cacb966c2f36a51620ea45def1cfd27430a3952c2ca22052d6b796041",
+      "bytes": 21362,
+      "physical_lines": 492,
+      "nonblank_lines": 466
+    },
+    {
+      "path": "DG/Exp2BoundedProbe.lean",
+      "sha256": "30eb4ac7b3f386d71673d7ca97ec76baa9fa1b601c8bd9e30237ad3831ab3483",
+      "bytes": 9238,
+      "physical_lines": 215,
+      "nonblank_lines": 193
+    },
+    {
+      "path": "DG/Exp2BoundedProof.lean",
+      "sha256": "39261d7d6abc992db310e3c205799a5ebcb3f3e8d20ebdf43e97f56502eb01fa",
+      "bytes": 9787,
+      "physical_lines": 213,
+      "nonblank_lines": 202
+    },
+    {
+      "path": "DG/Exp2Core.lean",
+      "sha256": "e0470ac6b13cb6133e1fee283977d2e427f5c4ac0aee3686e4d922767e67e6f6",
+      "bytes": 37340,
+      "physical_lines": 871,
+      "nonblank_lines": 819
+    },
+    {
+      "path": "DG/Exp2ErrorBound.lean",
+      "sha256": "a30f6ff97ced50f7dd6f5c3081a7aa9900509b61f02e168b8fd2c770ad8afd22",
+      "bytes": 6819,
+      "physical_lines": 143,
+      "nonblank_lines": 135
+    },
+    {
+      "path": "DG/Exp2FiniteCoordinates.lean",
+      "sha256": "ae832709d22c79ce0686431bdf7a38a68c3e45006727445e2d1462af411f8e58",
+      "bytes": 13980,
+      "physical_lines": 298,
+      "nonblank_lines": 278
+    },
+    {
+      "path": "DG/Exp2NormProbe.lean",
+      "sha256": "091ef8de20c66ec73812f78ad9fa8c686d4303856c1aed59b62f6d43615f06a5",
+      "bytes": 5724,
+      "physical_lines": 129,
+      "nonblank_lines": 116
+    },
+    {
+      "path": "DG/Exp2StandardSobolev.lean",
+      "sha256": "a41c979ac72c54bd5941a9ea8441e850edfe0507f79320cb6bb6e55721d43150",
+      "bytes": 24156,
+      "physical_lines": 532,
+      "nonblank_lines": 493
+    },
+    {
+      "path": "DG/Exp2Trace.lean",
+      "sha256": "1c76888024b13c5ab6e232c31ccbb1109f742490fe6e85801e01667899c56c62",
+      "bytes": 14001,
+      "physical_lines": 297,
+      "nonblank_lines": 286
+    },
+    {
+      "path": "DG/Exp2TraceBoundProbe.lean",
+      "sha256": "77edcb22ddc044da8cf9308e6a904bc80c75f88d10603ea08e4e1fdc7a79e3e8",
+      "bytes": 8959,
+      "physical_lines": 185,
+      "nonblank_lines": 175
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00.lean",
+      "sha256": "457a105a9ec0dae8884f8faf7e2e9284ac5ad7165e2248d3eecf8812e0a993f7",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/AllSections.lean",
+      "sha256": "a435deb2f2eaf9ba29256330435d9168ea93c06da306b47c9f6be3d0b2c1251b",
+      "bytes": 256,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Common.lean",
+      "sha256": "f67b7501a8725a5445ae1bb7e1dba35a08879d0a379854ecbf7ce218f723f4e0",
+      "bytes": 23286,
+      "physical_lines": 517,
+      "nonblank_lines": 400
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Core.lean",
+      "sha256": "2b5a019216313e69f05ff77856eb7c5153586c33774ecfa570c6089f2ac4c510",
+      "bytes": 290,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Ergodic/All.lean",
+      "sha256": "41ebfb0ec47a0a9a986c6bd1f68977301dddfc91f37687f70ad1f06d7265f723",
+      "bytes": 225,
+      "physical_lines": 9,
+      "nonblank_lines": 7
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Ergodic/Density.lean",
+      "sha256": "268fb2a79b50e050cd9a84c5cfe6cac91ca12f6fc2b916fd984d322a91c79a4d",
+      "bytes": 38511,
+      "physical_lines": 843,
+      "nonblank_lines": 744
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Ergodic/Furstenberg.lean",
+      "sha256": "4aff91877455ba96aa67d4633c6b223cbaeb840c46dba048c931836591638727",
+      "bytes": 9474,
+      "physical_lines": 252,
+      "nonblank_lines": 237
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/PerronFrobenius/All.lean",
+      "sha256": "4c7424acfe584733d9b2328bf6b93a87dcd3db180c8e75c57556c5f74af959f5",
+      "bytes": 390,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/PerronFrobenius/PerronFrobenius.lean",
+      "sha256": "94c89420d2a5c65fc2e7b60147d5ab680392304c77f4a84bea991097b6288f0c",
+      "bytes": 17160,
+      "physical_lines": 412,
+      "nonblank_lines": 386
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/PerronFrobenius/PerronFrobeniusGeneral.lean",
+      "sha256": "77bc210475b302a5cca1aafe6034a1ed907e9c09d30845130e6d937e3ea333e9",
+      "bytes": 13097,
+      "physical_lines": 290,
+      "nonblank_lines": 273
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/PerronFrobenius/PerronFrobeniusIrreducible.lean",
+      "sha256": "f08760837f8b56831d2742a156753328171af2be5dde391a63b89cf31f7df7e0",
+      "bytes": 3389,
+      "physical_lines": 83,
+      "nonblank_lines": 78
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/PerronFrobenius/PrimitiveAsymptotics.lean",
+      "sha256": "dc38bde52e0cfd95652f61bfed664abd5adc5cc3da8705a118d291164e832bb9",
+      "bytes": 4746,
+      "physical_lines": 122,
+      "nonblank_lines": 115
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/All.lean",
+      "sha256": "bd7b6e47c6b230ba96b12df271efa1b523e7817435c8121eada577cc5c466879",
+      "bytes": 627,
+      "physical_lines": 16,
+      "nonblank_lines": 14
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section01DaniellKolmogorov.lean",
+      "sha256": "a617e297460f0e36aac70fbf0302faf58294f32a00055e4474c3ecfe26062168",
+      "bytes": 52495,
+      "physical_lines": 1279,
+      "nonblank_lines": 1205
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section02Cantor.lean",
+      "sha256": "8cdeea4d85c8028aa0c34dbcd75f344174887ffeb9c10c0b82b202980257341a",
+      "bytes": 14989,
+      "physical_lines": 380,
+      "nonblank_lines": 363
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03ConditionalExpectation.lean",
+      "sha256": "5a8248e7d32b69a77d8f4cda0d014bd75539934222335568c5a4a6ed994b9195",
+      "bytes": 10069,
+      "physical_lines": 208,
+      "nonblank_lines": 200
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03ConditionalMeasure.lean",
+      "sha256": "26af51ec2a52344c3ea136d4befd9db288a74b69710a68124dc85ca6d3a2c214",
+      "bytes": 21215,
+      "physical_lines": 461,
+      "nonblank_lines": 453
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03Disintegration.lean",
+      "sha256": "931a65ec5ab8efd6acb1486911a101fa7eba83f58fa56144056868f600c9f498",
+      "bytes": 4401,
+      "physical_lines": 98,
+      "nonblank_lines": 92
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03Equivariance.lean",
+      "sha256": "f037ce107865cf6b1040a930da622f547b9b9ef47f2d3e291b04de5a20c944fc",
+      "bytes": 4511,
+      "physical_lines": 106,
+      "nonblank_lines": 100
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03Examples.lean",
+      "sha256": "cdc7624927946f1544a5e0abb4e8094d3fe0eb62dfd8e68559badde07ceffe50",
+      "bytes": 5222,
+      "physical_lines": 121,
+      "nonblank_lines": 116
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03L1.lean",
+      "sha256": "b1b3fd291af44eb3ab4ff9851a2b875dcd5b0ead74e7d61db1fb505b22162433",
+      "bytes": 7468,
+      "physical_lines": 153,
+      "nonblank_lines": 148
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Probability/Section03Representation.lean",
+      "sha256": "1459a367a2f2efe3975549a1257224956c8b1251d90ef137bccd0f98dd8f0298",
+      "bytes": 8777,
+      "physical_lines": 207,
+      "nonblank_lines": 201
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Renewal/All.lean",
+      "sha256": "5c16705d4a41ca4eba6c35842f53b59e226800497cf5bda56a8689639520d2f1",
+      "bytes": 308,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Renewal/Renewal.lean",
+      "sha256": "d3140d2c7d9b1e08479409b2a9551a51b9f264d461cc6b72342230819fd2eabf",
+      "bytes": 24478,
+      "physical_lines": 629,
+      "nonblank_lines": 588
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Renewal/RenewalConvolution.lean",
+      "sha256": "7d3b1501a890f91759f4b0aca23bd4aa1dda42c311718f2333325f223b827158",
+      "bytes": 5195,
+      "physical_lines": 141,
+      "nonblank_lines": 121
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Renewal/RenewalEnergy.lean",
+      "sha256": "d40c9a3b98bd56c4111280f0f9c192ed763e3d2be72e093ec2042501b952c038",
+      "bytes": 11456,
+      "physical_lines": 288,
+      "nonblank_lines": 273
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Renewal/RenewalMain.lean",
+      "sha256": "087d74e5931b80a1d78ca6c62f16ab96ac763a6d8e01384b25c67eb38a84557e",
+      "bytes": 8050,
+      "physical_lines": 193,
+      "nonblank_lines": 181
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section01.lean",
+      "sha256": "ad8d284ef58ccb72403c21daca8c74e67f835a9cda158c18923e810a37ea3d5f",
+      "bytes": 91938,
+      "physical_lines": 2194,
+      "nonblank_lines": 2102
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section02.lean",
+      "sha256": "f82d10eb988197da7954c686a2d81e09c360b47065a8ee8137134218020b4a31",
+      "bytes": 50933,
+      "physical_lines": 1241,
+      "nonblank_lines": 1177
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section03.lean",
+      "sha256": "7f8a31b107e24661f23d83b6e7d4835d0166829e728b1d484a0b4020aed93383",
+      "bytes": 21096,
+      "physical_lines": 458,
+      "nonblank_lines": 436
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section04.lean",
+      "sha256": "454121d17f9093770838c4a22fd4eb6913e3e1b7e6a295be7dfea02b4af58776",
+      "bytes": 99745,
+      "physical_lines": 2333,
+      "nonblank_lines": 2244
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section05.lean",
+      "sha256": "51b8956cd68b53008b923d7dc58bc1aba4a1062ba582c45c1813db3674f65119",
+      "bytes": 3392,
+      "physical_lines": 88,
+      "nonblank_lines": 76
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter00/Section06.lean",
+      "sha256": "a49c186aac6867036cea078108867503256acec9ce1afc34ff906a7d9bd52f55",
+      "bytes": 11052,
+      "physical_lines": 229,
+      "nonblank_lines": 218
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01.lean",
+      "sha256": "d3188898b6572cce97fc21d0b12987e9a2198d402d0eaa5699597b9d1f20b5bc",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/AllSections.lean",
+      "sha256": "d66bdec8815d2850cd97c2c4a3cf6ce4a0e3391e4fc0e90a2ada755ee774b7be",
+      "bytes": 175,
+      "physical_lines": 8,
+      "nonblank_lines": 6
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Coding/All.lean",
+      "sha256": "bcf2ed25b1a93d8df85f6e749bd7386f4d7280ced8b6223d9da5261158c927a8",
+      "bytes": 264,
+      "physical_lines": 10,
+      "nonblank_lines": 8
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Coding/BinaryCoding.lean",
+      "sha256": "c61adac8b3844c1258e0a3425e501a9eaee4b8ed14b6e6f39e8e0235443dbd31",
+      "bytes": 16614,
+      "physical_lines": 402,
+      "nonblank_lines": 373
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Coding/CauchyCoding.lean",
+      "sha256": "7e67180731062d3b3dfbdbef8397ba78f1a01330783960c2c6faf4af8af82fab",
+      "bytes": 24786,
+      "physical_lines": 616,
+      "nonblank_lines": 578
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Coding/MarkovCoding.lean",
+      "sha256": "e588e5389cf9b2ea0cd37b0d1b4bc2f4b1d0ba9f8816f53451c1d9b043326251",
+      "bytes": 55188,
+      "physical_lines": 1293,
+      "nonblank_lines": 1221
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Common.lean",
+      "sha256": "684297ad2b20f1c168f459808a43df9a8042fea197018dca1062ab6802a42d74",
+      "bytes": 27290,
+      "physical_lines": 617,
+      "nonblank_lines": 508
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Core.lean",
+      "sha256": "07fa1b8b823bee8928f526c0de94fdd018d39f13f3dadd3dcafc35c2eb83bf1c",
+      "bytes": 143,
+      "physical_lines": 7,
+      "nonblank_lines": 5
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Section01.lean",
+      "sha256": "6ab7079d2bf99a74f586aa35798172f922fa4a2bae88f41dde8184c9a77c2f44",
+      "bytes": 11809,
+      "physical_lines": 305,
+      "nonblank_lines": 289
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Section02.lean",
+      "sha256": "bf34f7c0cf0548527dbfa9152552742b1aabbe339df99b69f24982b11b0758e2",
+      "bytes": 89149,
+      "physical_lines": 2045,
+      "nonblank_lines": 1945
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter01/Section03.lean",
+      "sha256": "dd1ee93b5f15271db5042b64c220af62001c8361d4c2881a3a0e3559b13adc92",
+      "bytes": 8991,
+      "physical_lines": 235,
+      "nonblank_lines": 221
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02.lean",
+      "sha256": "1fc169754d087b15c619e32e2e8a8e7a95d6c4f17a4f3bcb9293ab98bed773bf",
+      "bytes": 521,
+      "physical_lines": 16,
+      "nonblank_lines": 12
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/AllModules.lean",
+      "sha256": "1c625b503fd85f6cc5db3e1f6fd0dc87c7ee929155c7cc68b44db1743d7e5669",
+      "bytes": 579,
+      "physical_lines": 19,
+      "nonblank_lines": 16
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/AllSections.lean",
+      "sha256": "734bbe3159fe186e753b9b7fbe081e682f16156cbfaa5b99f0b20410fc9e124b",
+      "bytes": 609,
+      "physical_lines": 18,
+      "nonblank_lines": 15
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Common.lean",
+      "sha256": "8c35bc960c59f8fb9b781c6433ad3f32ae77e39fa542a039e8ea4546f574853d",
+      "bytes": 62212,
+      "physical_lines": 1392,
+      "nonblank_lines": 1176
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Core.lean",
+      "sha256": "798fe6316a5b0bf77905abbceb61e0a2fafed0a75bac532fe29f9cf06ec6cdbf",
+      "bytes": 611,
+      "physical_lines": 17,
+      "nonblank_lines": 14
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/All.lean",
+      "sha256": "86add270a9845086c74ea3f5246505aad1229d7aff8abd7dfebcbcce58c847e1",
+      "bytes": 955,
+      "physical_lines": 22,
+      "nonblank_lines": 20
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactCodingDensity.lean",
+      "sha256": "6791f902215e3a7910ad4276af8999399b4f9fc630761ceb05cccef380af7bce",
+      "bytes": 3437,
+      "physical_lines": 88,
+      "nonblank_lines": 81
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactConfigurationMeasureOrbit.lean",
+      "sha256": "396c8bc953531da3c773bec5d2611d16f213370a08a9d926e8425eefcc96c93b",
+      "bytes": 11224,
+      "physical_lines": 288,
+      "nonblank_lines": 261
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactErgodicOrbitHomogeneity.lean",
+      "sha256": "ceae428bd59ecf028c9c404363db3ce920519a729d4d8cf3596e0a9e2a6424d7",
+      "bytes": 5568,
+      "physical_lines": 147,
+      "nonblank_lines": 137
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactForwardMinimalSubset.lean",
+      "sha256": "d35ca6d57469d3eadac764973983289990c034e3776fdcef3972976cd8adfd2b",
+      "bytes": 2645,
+      "physical_lines": 70,
+      "nonblank_lines": 62
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactGroupExtensionRecurrence.lean",
+      "sha256": "7a3b6ecbdb0caa9208d549f4581012f68e45cd6b482c1ff61cb7b826b288f80b",
+      "bytes": 10775,
+      "physical_lines": 293,
+      "nonblank_lines": 282
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactGroupMinimalTranslation.lean",
+      "sha256": "7dff41e068ec615931c09598b8497ae47955c292af51df79c68997f5c6fe5e43",
+      "bytes": 2085,
+      "physical_lines": 62,
+      "nonblank_lines": 52
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactHaarFourfold.lean",
+      "sha256": "9ffcaa05d7579e2bccee8e25e2bdff39e82a0366fe54f8f2b2385d7599df1824",
+      "bytes": 21673,
+      "physical_lines": 552,
+      "nonblank_lines": 515
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactMinimalGroupRotationUnique.lean",
+      "sha256": "e2b5f6c77b93bcd4c350acdfdeef48d33cfc128c8bfc18f23ca66a16624ef326",
+      "bytes": 7035,
+      "physical_lines": 190,
+      "nonblank_lines": 178
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactTwistedKernel.lean",
+      "sha256": "41c2565dfd95dc3f881cb0ae3bc238fc800726204ddf990dd0c5f721d36ebfdc",
+      "bytes": 2388,
+      "physical_lines": 66,
+      "nonblank_lines": 60
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/CompactUniqueErgodicCesaro.lean",
+      "sha256": "5c303f581db50a7b206d01447b728569e9e12002abaf0ac38d641150451300b2",
+      "bytes": 13319,
+      "physical_lines": 358,
+      "nonblank_lines": 341
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/DenseRangeConvergentNet.lean",
+      "sha256": "a07913d9d53364ee6dbced75fe10ec5eeff60a6b13d57562a8b9473bac3c7a82",
+      "bytes": 1428,
+      "physical_lines": 41,
+      "nonblank_lines": 34
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/DirectedMinimalInverseLimit.lean",
+      "sha256": "8e5d648cb5f26eaa864a05783e8741421c0de5a63c91c6e184ded9dfea9d98c5",
+      "bytes": 8086,
+      "physical_lines": 212,
+      "nonblank_lines": 199
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/MinimalFactorOrbitClosure.lean",
+      "sha256": "a7764734b1a2109cb1a07e75d9a005e508e2811019f3f546332b0b46131ea119",
+      "bytes": 4543,
+      "physical_lines": 130,
+      "nonblank_lines": 120
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/MinimalOrbitUniverseLowering.lean",
+      "sha256": "fccf3726b6d45a086a24f29b5597ede597bb3005b44a7dd714ccb0e19934f3ff",
+      "bytes": 4841,
+      "physical_lines": 148,
+      "nonblank_lines": 132
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Dynamics/ProMinimalInverseLimit.lean",
+      "sha256": "2d2de34fbec19a72368a0cf307e1d63562254ea82a9c9594f3d5865eef300bdd",
+      "bytes": 3301,
+      "physical_lines": 92,
+      "nonblank_lines": 82
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/AlgebraSubSigma.lean",
+      "sha256": "ba13d74eef6ac72d06af00e3bbc69b770232da8a70ac58e41cd798d8bf1b3eda",
+      "bytes": 44268,
+      "physical_lines": 1077,
+      "nonblank_lines": 1029
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/All.lean",
+      "sha256": "00c8bba474408f2319b1f7e42b739e113375b9b5ff4c29da95636a73fba1aff1",
+      "bytes": 1104,
+      "physical_lines": 30,
+      "nonblank_lines": 28
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/BernoulliMixing.lean",
+      "sha256": "7e425bb4f2ef839584748747c90aee9385977aaad10e904f399c15ea15b692ca",
+      "bytes": 24655,
+      "physical_lines": 569,
+      "nonblank_lines": 544
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/Birkhoff.lean",
+      "sha256": "a98d27e36c1753bc0b8ecdcfde8018895f51913bad5fc44d911c245b792b9882",
+      "bytes": 16751,
+      "physical_lines": 385,
+      "nonblank_lines": 369
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/BorelNormal.lean",
+      "sha256": "1bbbc16c7469e8cc645d55593ef21d03d2e6e56429c790bd4ebba697e8151a3a",
+      "bytes": 10190,
+      "physical_lines": 258,
+      "nonblank_lines": 240
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/CorrelationMean.lean",
+      "sha256": "667d883c3ae557d9ddf88c03f13abeb027acc8cb877e14d7047f819691eb8a8f",
+      "bytes": 52218,
+      "physical_lines": 1159,
+      "nonblank_lines": 1115
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/CorrelationSemiAlgebra.lean",
+      "sha256": "5c25e05a2de9f09e4c3b542f43c0df04efdda914edae6c9c841cbe0874ffd3a2",
+      "bytes": 33274,
+      "physical_lines": 731,
+      "nonblank_lines": 706
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/DenseExtension.lean",
+      "sha256": "150675756ca3b08984fce6b78ed1862dc2fdc4d6014287d25ec44ca1b4169afa",
+      "bytes": 1665,
+      "physical_lines": 44,
+      "nonblank_lines": 40
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ErgodicAverageLp.lean",
+      "sha256": "74b2d75909af605c45ac84eca4aa49f32f1a11483722347c221db522657d7009",
+      "bytes": 19422,
+      "physical_lines": 437,
+      "nonblank_lines": 418
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ErgodicBirkhoffBridge.lean",
+      "sha256": "9564814a758298fc30d132302dc8e1a22c6a82729338dfc1605986987844a97e",
+      "bytes": 1406,
+      "physical_lines": 40,
+      "nonblank_lines": 33
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ErgodicBridge.lean",
+      "sha256": "dfadf6c55cac1c160607938fc3723de0bc38162d186c26efafaf26f7aacac925",
+      "bytes": 1406,
+      "physical_lines": 43,
+      "nonblank_lines": 37
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ErgodicCorrelations.lean",
+      "sha256": "53599ce518b14ff22abc61c8b3f87c90cd3e6b62d7cf6089cfd952c37495e8c0",
+      "bytes": 1567,
+      "physical_lines": 44,
+      "nonblank_lines": 38
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/FiniteMarkov.lean",
+      "sha256": "cf637463874ae6fcedb041f66874dad558a6eccca63f548c194d3201ed9c107f",
+      "bytes": 16642,
+      "physical_lines": 416,
+      "nonblank_lines": 393
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/HopfMaximal.lean",
+      "sha256": "d22cb3ed78cb4ba8bfacee9ab96cf2928237ba109a80baf9b9500ae8fa547174",
+      "bytes": 18762,
+      "physical_lines": 437,
+      "nonblank_lines": 419
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/LpInterpolation.lean",
+      "sha256": "896f8eb9a44259f56d5e3a196c57d0a047dbd2b26e410832175c24571fc4553f",
+      "bytes": 19727,
+      "physical_lines": 418,
+      "nonblank_lines": 405
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/MarkovErgodic.lean",
+      "sha256": "45d211e1f60e1a5f3ba6ffe151aef594d571af80306c7a594f0994c0876ba785",
+      "bytes": 136628,
+      "physical_lines": 2953,
+      "nonblank_lines": 2864
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/MeanErgodicL2.lean",
+      "sha256": "6c494de3ee9854a9142dae29a8e25ce9b371c9ba12a299396a60bc4f6900f892",
+      "bytes": 14192,
+      "physical_lines": 318,
+      "nonblank_lines": 307
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ProductWeakMixing.lean",
+      "sha256": "e61996e399771f1d668ddb772e0eda8ebe314d0e34dd70c5c10ee4a04f9d4718",
+      "bytes": 17550,
+      "physical_lines": 444,
+      "nonblank_lines": 414
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/RotationWeakMixing.lean",
+      "sha256": "0759b961e76285681d92bb739e026fa3bbdeeaf56bc1e87dfcb57551cad745b9",
+      "bytes": 2222,
+      "physical_lines": 57,
+      "nonblank_lines": 50
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/StatisticalConvergence.lean",
+      "sha256": "f8afdc9c8dd903de0d5657577f81e9528063fae5e4a8ce5704730d45645bf403",
+      "bytes": 4917,
+      "physical_lines": 128,
+      "nonblank_lines": 121
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/StochasticCesaro.lean",
+      "sha256": "dbab2537fd2e274ac435159e508c84f6bcef2315bdc4257674d05211dbd9918d",
+      "bytes": 11926,
+      "physical_lines": 289,
+      "nonblank_lines": 262
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/VanDerCorput.lean",
+      "sha256": "4b47956a515aced109e863f914f75fe72fd14a435723e009ae7563fc374215af",
+      "bytes": 30349,
+      "physical_lines": 765,
+      "nonblank_lines": 739
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/VanDerCorputPairLimits.lean",
+      "sha256": "9bcf841e5e370f7f9de836772bfd5499c928cea9caf98271bca6036eb4f552f9",
+      "bytes": 4664,
+      "physical_lines": 137,
+      "nonblank_lines": 127
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Ergodic/ZeroDensity.lean",
+      "sha256": "061028b6339d8c1cdcd09c3f97e64883f4f2a3d8f44248775b44975368d2aee6",
+      "bytes": 18776,
+      "physical_lines": 434,
+      "nonblank_lines": 408
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/All.lean",
+      "sha256": "ef204ed065e353b597a1c53afb5e958b3265b999c69cc88bf468f5a10920988a",
+      "bytes": 3850,
+      "physical_lines": 66,
+      "nonblank_lines": 64
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/CentralFiberFourfold.lean",
+      "sha256": "3f13b8c91cdd000739f2136554205a11361e85a1cb838ba9ecafeab79dafe220",
+      "bytes": 11880,
+      "physical_lines": 294,
+      "nonblank_lines": 269
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/CompactAbelianSubgroupAnnihilator.lean",
+      "sha256": "5557c9118bcfbc6c9c1ece0b54d6d4f7e4500dc3bc04e74354240641719fb116",
+      "bytes": 2220,
+      "physical_lines": 56,
+      "nonblank_lines": 49
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/CompactCentralCubeSurjective.lean",
+      "sha256": "1bbb7bdae92c73d3aac9787500b19729edc31a154f6de2edcdc7b26fd9b9e8f2",
+      "bytes": 844,
+      "physical_lines": 24,
+      "nonblank_lines": 18
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/ConnectedCountableRange.lean",
+      "sha256": "b19449a6365c3642f6e11c175ba9a4e281beb06326983978b6e536e2db8b3443",
+      "bytes": 874,
+      "physical_lines": 28,
+      "nonblank_lines": 22
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/CountableLocallyCompactGroupDiscrete.lean",
+      "sha256": "5ddef7639b2449d83c3fd78659bf471c935e7457507c7d30d7f23eaa2a73f335",
+      "bytes": 1590,
+      "physical_lines": 48,
+      "nonblank_lines": 42
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAbelianLatticeDiscrete.lean",
+      "sha256": "01154839d5bf2f5f8e9fad02046339814e2641b0e3d9760f5964748dd47047a7",
+      "bytes": 4174,
+      "physical_lines": 105,
+      "nonblank_lines": 95
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAbelianSecondCountable.lean",
+      "sha256": "576130b9d8ebd279b5ba8573c52694063da09de0032756a9f3995b03ffcea78f",
+      "bytes": 3214,
+      "physical_lines": 85,
+      "nonblank_lines": 76
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAbelianUniqueMean.lean",
+      "sha256": "b8174bc9b13badd4f2c7a36c017793ee16fdff830e7f321254a12dc494592ee2",
+      "bytes": 3211,
+      "physical_lines": 75,
+      "nonblank_lines": 67
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAveragedMinimalPresentation.lean",
+      "sha256": "fe6860facd2ce0919081ad8fae70ba85b0cb2d0c9137691438906920dded678c",
+      "bytes": 6205,
+      "physical_lines": 132,
+      "nonblank_lines": 123
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAveragedQuotientMeasure.lean",
+      "sha256": "3e68f1a0fccfff89c83832c6e3d62d8b9820e3d41d2b0e8ccf4a6ded7bc2fee7",
+      "bytes": 35941,
+      "physical_lines": 864,
+      "nonblank_lines": 832
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoAveragingSubgroup.lean",
+      "sha256": "51d4210fc779c73929588c36ae117a035e14acca997f98f8555165d3d60b2115",
+      "bytes": 18594,
+      "physical_lines": 476,
+      "nonblank_lines": 452
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoCentralExtensionMinimality.lean",
+      "sha256": "eb8e2cb92f3000a66320059f9f1967721b6ac80f0ff458b9ec7adf804601108f",
+      "bytes": 24383,
+      "physical_lines": 579,
+      "nonblank_lines": 549
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoCentralMeasures.lean",
+      "sha256": "ca614a2348ba9c899902f2838785757fd65a1d1d550c2f712beb773635f3b553",
+      "bytes": 11694,
+      "physical_lines": 267,
+      "nonblank_lines": 248
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoCompactQuotient.lean",
+      "sha256": "b5ce0f8882379487631a766b8fc9cdef2c51c2972579240c74ee1b404a47892d",
+      "bytes": 9221,
+      "physical_lines": 248,
+      "nonblank_lines": 233
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoCompactReduced.lean",
+      "sha256": "c22b319377dcdb753adafb65e8aa5646765f26c685c33255e36a941960e4c8a1",
+      "bytes": 1228,
+      "physical_lines": 32,
+      "nonblank_lines": 25
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoConnectedPhaseRigidity.lean",
+      "sha256": "4b4740f23ef8f6c3e150bc879835ccacc5bae073820c6b3e2b70b6be80ba370d",
+      "bytes": 6938,
+      "physical_lines": 179,
+      "nonblank_lines": 172
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoInvariantVerticalPhaseUniqueness.lean",
+      "sha256": "c468879ac4a1f4c7c62f18ba83ea60641ac8588589011c1fe7195d2951be6c73",
+      "bytes": 3822,
+      "physical_lines": 101,
+      "nonblank_lines": 93
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoJoining.lean",
+      "sha256": "e4ea1b82622595c34175db959a40fecb562028cad5b140f702fe28a865db4418",
+      "bytes": 3619,
+      "physical_lines": 89,
+      "nonblank_lines": 81
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoLattice.lean",
+      "sha256": "e2475d13017b0bd3a2bf5e4a3b1d9dbe0bc8ea6aaac563d860d83e8d71eb4124",
+      "bytes": 25757,
+      "physical_lines": 654,
+      "nonblank_lines": 610
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoLatticeCommutatorNormalForm.lean",
+      "sha256": "de08ce4ec7b1940a505d91869848cb39d51b2c8ffc01c3227a9ffe3a4ecb7b39",
+      "bytes": 8772,
+      "physical_lines": 214,
+      "nonblank_lines": 204
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoLatticePhaseReturn.lean",
+      "sha256": "5e9b72fd961ea835eb890dc32be68dab3cbce2b59dea8a4bfe59010b08f084d3",
+      "bytes": 10380,
+      "physical_lines": 269,
+      "nonblank_lines": 252
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoMeasureOrbit.lean",
+      "sha256": "bafa53e3f6cf09a9adbd5d8ecb5bcba15e2f18e54d4cc94e259d15908833e3c5",
+      "bytes": 20437,
+      "physical_lines": 503,
+      "nonblank_lines": 462
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoNormalForm.lean",
+      "sha256": "629d1d580bb1d0f56d178f65422611e933184f9a474bd488e081c1dcdc637c87",
+      "bytes": 25277,
+      "physical_lines": 673,
+      "nonblank_lines": 633
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoOrbitClosureRecurrence.lean",
+      "sha256": "e1afcce78cf7c7c91787828a175564636b5004689df1f133e6b5cd82285d7315",
+      "bytes": 6330,
+      "physical_lines": 157,
+      "nonblank_lines": 142
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoOrbitPresentation.lean",
+      "sha256": "5a49a4b1471108543774ac83b445e5d0728c5dadd5ed93544db7b09a9df3082e",
+      "bytes": 3821,
+      "physical_lines": 95,
+      "nonblank_lines": 86
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoParryPropertyH.lean",
+      "sha256": "80fbe8cc359dfe450b042656fdada7fbf4cc34e205b2fa06db3a3ef9446b8038",
+      "bytes": 17474,
+      "physical_lines": 406,
+      "nonblank_lines": 383
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoParryStabilizerClosure.lean",
+      "sha256": "abfe216df6626a8a13d4d045cbb23f00465355eb89ce5dc4602f2982582bb4ec",
+      "bytes": 3716,
+      "physical_lines": 99,
+      "nonblank_lines": 90
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoProgressionReturnLift.lean",
+      "sha256": "be6dbd2577e5ffac18641e1dc12f5bcce31fb688d42fe0a6f254f3b5ec543970",
+      "bytes": 11318,
+      "physical_lines": 281,
+      "nonblank_lines": 267
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoPropertyHCorrelationOrbit.lean",
+      "sha256": "52b446601f032ee6da97e7aa34bcd90fbe373625713a55b8ab4ef74787096742",
+      "bytes": 1851,
+      "physical_lines": 44,
+      "nonblank_lines": 38
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoPropertyHExactCorrelationOrbit.lean",
+      "sha256": "125688eab48cc566328e01b25c70a7f7347ce97bfb3bee51ce4ee87bf5eabbff",
+      "bytes": 4778,
+      "physical_lines": 125,
+      "nonblank_lines": 118
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoPropertyHPhaseExclusion.lean",
+      "sha256": "cf0949cd48aa6b25774919a389e95fe1eaa70e3b04dff7da355602980e16590c",
+      "bytes": 5137,
+      "physical_lines": 135,
+      "nonblank_lines": 127
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoPropertyHPhaseTranslation.lean",
+      "sha256": "0100de10849c11d7d29a750c48f5a6b5bae4c6618ec4162238a999a0e2e31d36",
+      "bytes": 6462,
+      "physical_lines": 165,
+      "nonblank_lines": 156
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoQuotientCentralLift.lean",
+      "sha256": "672955738f9122d1555bb8892c5daf00b1c08730eb0460eb2719ffb386486678",
+      "bytes": 22750,
+      "physical_lines": 526,
+      "nonblank_lines": 499
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedAbelianFactor.lean",
+      "sha256": "cf71c13fba0e6d938215b828877c466a8d03ada3ebd71f7e6e041ebb8347a21f",
+      "bytes": 45655,
+      "physical_lines": 1111,
+      "nonblank_lines": 1046
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedAveragedCorrelation.lean",
+      "sha256": "8e1db122e12590afbb4d1deda2d2eb13c13aa788eaa50fcc6867b8f98e517e28",
+      "bytes": 8810,
+      "physical_lines": 204,
+      "nonblank_lines": 192
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedHausdorff.lean",
+      "sha256": "1c9b1cb508bfa692e306b5c4cafbb330cb338a9fe551786c46bef5072fc9e292",
+      "bytes": 8968,
+      "physical_lines": 224,
+      "nonblank_lines": 211
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedInvariantProjection.lean",
+      "sha256": "a90527ba4a289bf66fc783a1af55a9713fb6e5730c466ccc1d63689f16d6062b",
+      "bytes": 9170,
+      "physical_lines": 199,
+      "nonblank_lines": 191
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedLatticeDiscrete.lean",
+      "sha256": "ab753fff4f862e99244bab6bf12d1a577157b0433a4b4539e17ff6049ec1190f",
+      "bytes": 6969,
+      "physical_lines": 172,
+      "nonblank_lines": 159
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedOrbitObservation.lean",
+      "sha256": "355555609dd4fea8fc808cebf264adc4be83d343fb9c5d726405e29f475172ec",
+      "bytes": 4647,
+      "physical_lines": 124,
+      "nonblank_lines": 114
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedQuadraticInvariantUniqueness.lean",
+      "sha256": "2376d8ce163f1de0f703003e06e37397623f01c650999845a6dae33f134b6872",
+      "bytes": 8480,
+      "physical_lines": 183,
+      "nonblank_lines": 175
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedQuotient.lean",
+      "sha256": "d466578b707d6d449ebc46e845d4670cc5847bf648976adc348718a4c64e2596",
+      "bytes": 13042,
+      "physical_lines": 336,
+      "nonblank_lines": 305
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedRecurrence.lean",
+      "sha256": "0905d2bc98eefb86348b339ffcb451ababa282d45f50ed66fd4c35a383646312",
+      "bytes": 18839,
+      "physical_lines": 462,
+      "nonblank_lines": 444
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedSecondCountable.lean",
+      "sha256": "e222f7aebf525e2925edca75d97cee8aad55eadaf014da55ce62ad0aa0293532",
+      "bytes": 3499,
+      "physical_lines": 95,
+      "nonblank_lines": 87
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedUniqueMean.lean",
+      "sha256": "c0707307d45d06272994cd5d245c0c220c2148317261e87cd6abd75edf6bc2b4",
+      "bytes": 13467,
+      "physical_lines": 287,
+      "nonblank_lines": 275
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoReducedVerticalFourierCriterion.lean",
+      "sha256": "8329b90f3aa08399ff239affbb48373d7ca3eaa4d34f2fd021eb57b3f46d151f",
+      "bytes": 8982,
+      "physical_lines": 201,
+      "nonblank_lines": 193
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoStabilizerAbelianLift.lean",
+      "sha256": "faa6ecfb4b60f49eed2fd0f49e72c1a397aad7eae56059d1eeaae668c27b7773",
+      "bytes": 5500,
+      "physical_lines": 151,
+      "nonblank_lines": 142
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoStabilizerCommutatorDensity.lean",
+      "sha256": "7330cf2675dadb82d18a4e510e88fc5dcc4c9915fb0d0ac849284ef97cab7ad4",
+      "bytes": 4448,
+      "physical_lines": 106,
+      "nonblank_lines": 96
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoStabilizerGeneratedCommutator.lean",
+      "sha256": "eaa0a4c9e209180941596d37e17676f7e31913c97b96539e63235770298115e5",
+      "bytes": 7003,
+      "physical_lines": 168,
+      "nonblank_lines": 156
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoStabilizerPairwiseCommutator.lean",
+      "sha256": "0a980bc44778c6ad4cf056444bf32bc17a20bc2c20fbd524a6420292f0bf6bbc",
+      "bytes": 8830,
+      "physical_lines": 207,
+      "nonblank_lines": 193
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoTwoStepGroup.lean",
+      "sha256": "6c3c213c407855f656ea0f7619ca48b19511d3e32d922bd7e0495d55d81eb8af",
+      "bytes": 7417,
+      "physical_lines": 208,
+      "nonblank_lines": 180
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoVerticalCharacter.lean",
+      "sha256": "94dcec38fe58c9d603963a99a0e111a0ebfa2649b29460c043276ad9fe4bb10e",
+      "bytes": 4054,
+      "physical_lines": 103,
+      "nonblank_lines": 94
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/HallPetrescoVerticalPhase.lean",
+      "sha256": "476483987caf6f7b7577b1048c0975a047d6497aa4a9ef5c833d8c3151954e09",
+      "bytes": 18667,
+      "physical_lines": 463,
+      "nonblank_lines": 448
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/LawfulCompactCentralAction.lean",
+      "sha256": "0896aa5e974a160837628994027b3255425d6fb831cfccf0ed505693a1a2e3af",
+      "bytes": 3649,
+      "physical_lines": 92,
+      "nonblank_lines": 82
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/LocalHomeomorphLatticeLift.lean",
+      "sha256": "f69637b747a55d844557cab5303efb00f878bdafe353ab5125f76d128308519d",
+      "bytes": 3283,
+      "physical_lines": 99,
+      "nonblank_lines": 92
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/MinimalContinuousEigenfunction.lean",
+      "sha256": "67f794a558b632a50645cd22deb115fefd2752f1327a398a37ba708b9c1e0d15",
+      "bytes": 11491,
+      "physical_lines": 322,
+      "nonblank_lines": 306
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/MultiplicativeTorusCharacter.lean",
+      "sha256": "3a2ff45d009cd89fd25b4ba713df2e8ad2ac99e7cb1bc77f727b0d88ecdc2906",
+      "bytes": 3313,
+      "physical_lines": 98,
+      "nonblank_lines": 86
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/NilsystemPropertyHReduction.lean",
+      "sha256": "8862030960fa8d72e61fc392bba2842dd9066ea7a3c3f5e4d6f2fbf831189cc4",
+      "bytes": 14392,
+      "physical_lines": 350,
+      "nonblank_lines": 327
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/ParryCompactCommutatorCore.lean",
+      "sha256": "f6910e2d183bbfbb2121f3bd0e8890bbd49f847e2d4483a6db5afc9b80f16066",
+      "bytes": 4878,
+      "physical_lines": 131,
+      "nonblank_lines": 121
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HallPetresco/ToralTwoStepNilsystem.lean",
+      "sha256": "880039c1f8d8deb09af8caf0feca0f78c9b91bd1b6bf1a512a2ef121190706e8",
+      "bytes": 12119,
+      "physical_lines": 319,
+      "nonblank_lines": 297
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/All.lean",
+      "sha256": "671546bda239492764148bd5774096b4215f58ea89f36a8fca3359bcac6f958a",
+      "bytes": 4194,
+      "physical_lines": 85,
+      "nonblank_lines": 83
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCartesianCube.lean",
+      "sha256": "ab09c41e2450e739b6b48284e7e1b2d27d9f404ad5679473c43706e01c499d6d",
+      "bytes": 15574,
+      "physical_lines": 357,
+      "nonblank_lines": 338
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCentralChangeVariables.lean",
+      "sha256": "dc3cd26253fbf9e230c6c4a7190c80f7d0830c248127410b0c36fd94d7e1390f",
+      "bytes": 18752,
+      "physical_lines": 445,
+      "nonblank_lines": 424
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCentralFiberSupremum.lean",
+      "sha256": "39aad92c6e8f0e596a47df28c6ff53d52beb915ebddf445ed30e14329ae10d24",
+      "bytes": 8290,
+      "physical_lines": 195,
+      "nonblank_lines": 181
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraConditionalTop.lean",
+      "sha256": "48cc3d86155e556ddc578e1b63a35e3cdaf86dd3b3e780faf3c3c91e67dee9dd",
+      "bytes": 10565,
+      "physical_lines": 270,
+      "nonblank_lines": 257
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraContinuousCylinderReduction.lean",
+      "sha256": "f1c9a69e2385ef634107b9ec48cf291e0fa9f09c93e68a5b8d8b88737a45d254",
+      "bytes": 10915,
+      "physical_lines": 251,
+      "nonblank_lines": 237
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeComponentDynamics.lean",
+      "sha256": "aae8085e29f49f22f63e429bc7572b128ef11186fff6417804a7cca3d5b582af",
+      "bytes": 1257,
+      "physical_lines": 39,
+      "nonblank_lines": 30
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegration.lean",
+      "sha256": "c4f9f9e6b34ae04784bb6dcbcc0f9d9c5dccb2693a7a8f29ae7cb68dd9bb722a",
+      "bytes": 15455,
+      "physical_lines": 382,
+      "nonblank_lines": 366
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationComponentMean.lean",
+      "sha256": "4229c00a800c60e76564565e326bfa52282a49fff93dc0193295964d33d1bd5b",
+      "bytes": 6439,
+      "physical_lines": 158,
+      "nonblank_lines": 145
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationFunctionMean.lean",
+      "sha256": "e36a508322cf9846c39ec68032b7ea32efb8976854757285ce16db446f28a906",
+      "bytes": 4304,
+      "physical_lines": 110,
+      "nonblank_lines": 102
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationKernel.lean",
+      "sha256": "818513632a683de12ffd0fa34c67dcf0d548205b2cca2bc317d75c6f74c918a6",
+      "bytes": 5902,
+      "physical_lines": 144,
+      "nonblank_lines": 136
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationMean.lean",
+      "sha256": "808078721661c4e70383739768b74cd5519759baf5c8120c21b4ec9908a7536e",
+      "bytes": 3532,
+      "physical_lines": 87,
+      "nonblank_lines": 80
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationMeasure.lean",
+      "sha256": "4d1deb542398b98335b6b86983e51b91975eb38233f4ccc09f73564369433aef",
+      "bytes": 11841,
+      "physical_lines": 284,
+      "nonblank_lines": 273
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationNull.lean",
+      "sha256": "5307cfb4cc31fa1623acaf7bc4202c66325666cd10386a6da6da3322134795e1",
+      "bytes": 18748,
+      "physical_lines": 455,
+      "nonblank_lines": 438
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeDisintegrationSymmetry.lean",
+      "sha256": "243459d835a7ad86c40f90d2db8244945299024b97559c3ba53ee2841cf20277",
+      "bytes": 6296,
+      "physical_lines": 159,
+      "nonblank_lines": 147
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeFactors.lean",
+      "sha256": "b99c994774f2dfd727ce55502e473f4232eb8cc374c620c475fd37b1ee10e628",
+      "bytes": 6182,
+      "physical_lines": 156,
+      "nonblank_lines": 137
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeFourSymmetry.lean",
+      "sha256": "9f84120e081a9c988cf7253c59358b291511369cd2ddaa03f96e8910cca31e57",
+      "bytes": 4407,
+      "physical_lines": 116,
+      "nonblank_lines": 104
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeRelative.lean",
+      "sha256": "d874c37f343b91db99eb328543f226002d0db5abefcfd93a25123dfd3dc9b897",
+      "bytes": 7438,
+      "physical_lines": 201,
+      "nonblank_lines": 189
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeSeminorm.lean",
+      "sha256": "9d038c92d4a06733b810e633b4ba9d4f3a3c307cbc47a4fb9c0f2c540add6fdd",
+      "bytes": 9299,
+      "physical_lines": 237,
+      "nonblank_lines": 205
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeSeminormDynamics.lean",
+      "sha256": "891187e1a26e0b6ffa1b7120c0b9e8159d4dfd6d5e240d7671fe75a98748d388",
+      "bytes": 5590,
+      "physical_lines": 159,
+      "nonblank_lines": 142
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeSeminormRecursion.lean",
+      "sha256": "d6a01f2ec4a31c6a8af087d15945db18e47378705749784579190baeb7ea023d",
+      "bytes": 4911,
+      "physical_lines": 124,
+      "nonblank_lines": 113
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeSymmetry.lean",
+      "sha256": "2c27af5a46922a8ef1217e61e6214f4bb3069465bd2b50a0f540868051263eb2",
+      "bytes": 63765,
+      "physical_lines": 1502,
+      "nonblank_lines": 1456
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeThree.lean",
+      "sha256": "12419749a48a347ab512bb63152ff4e4fa9c2f98206f09257e341f29677427f6",
+      "bytes": 6694,
+      "physical_lines": 166,
+      "nonblank_lines": 149
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraCubeTwo.lean",
+      "sha256": "f7437877304ea22c0856c826ecbccbbc458f0a536342d86b19100c9398ace5ae",
+      "bytes": 6756,
+      "physical_lines": 186,
+      "nonblank_lines": 172
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDirectedInverseLimitReduction.lean",
+      "sha256": "60e2ff29d79cf12f934aaa058a751fed3b6afd20c2001080906b00fb09d05dd1",
+      "bytes": 3593,
+      "physical_lines": 85,
+      "nonblank_lines": 77
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualFunction.lean",
+      "sha256": "2f80650cf5f51d78defc47a51953be2df44f3b558fc57dbe16f6221df954e149",
+      "bytes": 45305,
+      "physical_lines": 1134,
+      "nonblank_lines": 1084
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualFunctionFour.lean",
+      "sha256": "23504c4319b4d8b0ab0f6ef7d79f41ebb2bb7b3ef86d1e0632c73529f5efbb19",
+      "bytes": 49439,
+      "physical_lines": 1160,
+      "nonblank_lines": 1126
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualSigma.lean",
+      "sha256": "637932f637eb05190b9763114061d7c26c39664642f531885f4b0bdfb58ca037",
+      "bytes": 3429,
+      "physical_lines": 96,
+      "nonblank_lines": 84
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualTop.lean",
+      "sha256": "5d27db3e3ade69aaa004b4ad23846c2444e1380b734aaaa593dd27399a3d0fda",
+      "bytes": 6716,
+      "physical_lines": 162,
+      "nonblank_lines": 153
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualZ2.lean",
+      "sha256": "0cff1ccf8c1208d5451b43ba04358572317a0901b9ba8564a2c5f27c29442c10",
+      "bytes": 8031,
+      "physical_lines": 202,
+      "nonblank_lines": 192
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraDualZ3.lean",
+      "sha256": "85da8e75973e6dcd823b5fb94da2ac71446aa99d53f620ec4cba64bed0c4d80a",
+      "bytes": 11224,
+      "physical_lines": 266,
+      "nonblank_lines": 255
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraErgodicDecomposition.lean",
+      "sha256": "83f1bed1e2f693b4a45f9e3eb80803fddc1bd249b95fabd9bc8128191ff53283",
+      "bytes": 87240,
+      "physical_lines": 2135,
+      "nonblank_lines": 2060
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraErgodicRelativeJoining.lean",
+      "sha256": "0d23b786197fb95c65b3ff46a48468ada8e21bd069981a23a848fa09a0e6a3b8",
+      "bytes": 4550,
+      "physical_lines": 113,
+      "nonblank_lines": 102
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFifteenDualFactor.lean",
+      "sha256": "8a7b7867363cb99371a3928398e794c7611cc169461d18fa381baf4338f2c5d8",
+      "bytes": 9765,
+      "physical_lines": 250,
+      "nonblank_lines": 229
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFiniteCodeOrbitModel.lean",
+      "sha256": "750907fc91d61888aa8a862e5ce072703f32f037eb1319749ea6f25d138d05c6",
+      "bytes": 29189,
+      "physical_lines": 690,
+      "nonblank_lines": 649
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFiniteCoordinate.lean",
+      "sha256": "31c31f03bd9f0641cabb79f60dd15be088dd595a4f1d58f5ca53814e993f4d42",
+      "bytes": 18262,
+      "physical_lines": 435,
+      "nonblank_lines": 413
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFiniteCylinderDensity.lean",
+      "sha256": "551e3f896f64dd694c0e8d4bc9f0eed077b20f5cf99c1474cd8bf030f0e21217",
+      "bytes": 7249,
+      "physical_lines": 186,
+      "nonblank_lines": 170
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFiniteMinimalReduction.lean",
+      "sha256": "72bf1c7934133f45e797aeb077d53f3499cd94778f73766683f24fb5e4eb2864",
+      "bytes": 5016,
+      "physical_lines": 120,
+      "nonblank_lines": 110
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFourfoldStructuredReduction.lean",
+      "sha256": "c7a8870b4deba45e4c0a5d49399e95078380992c5e34084b75a3cf5ff4e2c655",
+      "bytes": 14859,
+      "physical_lines": 349,
+      "nonblank_lines": 336
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraFullyStructuredFiniteCode.lean",
+      "sha256": "cb861e919ceb6e9ed9bfb1a1f4932d4d39e68b828b3214724fd514b53528992f",
+      "bytes": 21802,
+      "physical_lines": 520,
+      "nonblank_lines": 487
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraGowersCauchySchwarz.lean",
+      "sha256": "5ea4728990f22b35349fc7c4fb924ad300de05b6926376af4f8e84188a59cbd2",
+      "bytes": 25579,
+      "physical_lines": 610,
+      "nonblank_lines": 596
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraGowersCauchySchwarzFour.lean",
+      "sha256": "de5b9381dff665db4db9c2f6bf8b9145921483ca4c3ab0279f2a5a1889cfb06f",
+      "bytes": 20906,
+      "physical_lines": 464,
+      "nonblank_lines": 454
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraHallPetrescoCorrelation.lean",
+      "sha256": "8488301ae0a28cc5d9402468fadded71f232ec84af766eb81b7a40d7c45202fc",
+      "bytes": 4062,
+      "physical_lines": 103,
+      "nonblank_lines": 92
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraHallPetrescoDecompositionReduction.lean",
+      "sha256": "67e5c25981f71c040f829e411a83469c2abb734206a52d19ea5273d053b19760",
+      "bytes": 4473,
+      "physical_lines": 111,
+      "nonblank_lines": 101
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraHallPetrescoUniformMean.lean",
+      "sha256": "e28bcc804f7b1e548464a8e3567484d73c2d4e7135eb9bb13d9a5dc9ed7d27d0",
+      "bytes": 4304,
+      "physical_lines": 112,
+      "nonblank_lines": 102
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraInvariantMeanSubsequenceZero.lean",
+      "sha256": "7757efdb0d29240dc99428575cd4fa87df32b3097106ff17ad58a4160f2a284c",
+      "bytes": 2865,
+      "physical_lines": 79,
+      "nonblank_lines": 72
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraNilDecompositionReduction.lean",
+      "sha256": "16ba8add4dd331f5aa7f409b6289cc24c35fe5a0030fb1a0cd873c5f835d20be",
+      "bytes": 2814,
+      "physical_lines": 68,
+      "nonblank_lines": 59
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraProgressionPairLimits.lean",
+      "sha256": "49829eddc029c673613e527fe78815338f10718f9caadfbd8c72c4946108e78c",
+      "bytes": 3692,
+      "physical_lines": 92,
+      "nonblank_lines": 83
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraRelativeJoining.lean",
+      "sha256": "1a1b4742fa571b8b6b52b2883c880517be94d4ff9ac218934011e392caa7c979",
+      "bytes": 31101,
+      "physical_lines": 760,
+      "nonblank_lines": 717
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraRelativeJoiningComplex.lean",
+      "sha256": "dbe0e22d9c1bc28c4035e14c0b6811df3c4fd88e194c135335dfbba2c999e259",
+      "bytes": 24861,
+      "physical_lines": 572,
+      "nonblank_lines": 548
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraRelativeMean.lean",
+      "sha256": "d285ebd11b503ade6792cdf3672bef48cbf2f883f22f7cb5d49f6189a25fbcfa",
+      "bytes": 12283,
+      "physical_lines": 310,
+      "nonblank_lines": 298
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraSevenDualFactor.lean",
+      "sha256": "2b3cb138238bf2a4f6da5b6fb68f689b3312cb037ecbb126db57399980ece661",
+      "bytes": 9273,
+      "physical_lines": 251,
+      "nonblank_lines": 230
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraStandardRelativeJoining.lean",
+      "sha256": "fea3aeca6dc6aebb7ad14bcb2e7353b67db7875a080028ac961990911c5ec090",
+      "bytes": 12938,
+      "physical_lines": 303,
+      "nonblank_lines": 275
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraStructuredApproximation.lean",
+      "sha256": "1ce824535d3c23a9376791ef4f3ee1c5853cde06668ec73e16b20817281e48f0",
+      "bytes": 8962,
+      "physical_lines": 209,
+      "nonblank_lines": 196
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraStructuredRecurrence.lean",
+      "sha256": "736b9cc957e85b7ab832c14ed50bb82d43767056299c9894da30ad774688f679",
+      "bytes": 13624,
+      "physical_lines": 335,
+      "nonblank_lines": 314
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraTorusHallPetrescoReduction.lean",
+      "sha256": "4746701dfa92dfc525da2946bd62c9e473360b52744edb9559243aa72da5b9e4",
+      "bytes": 3937,
+      "physical_lines": 92,
+      "nonblank_lines": 83
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU2Continuous.lean",
+      "sha256": "035a9435ec8ac4e523f3d2d48ef0e871fb7be21c3fe26c31f9a960885753eb95",
+      "bytes": 12643,
+      "physical_lines": 332,
+      "nonblank_lines": 318
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3Component.lean",
+      "sha256": "ee5cdf93b0f485b343894316de73fac4ef3b460919f478e14bf8eddf5ca74eab",
+      "bytes": 2842,
+      "physical_lines": 80,
+      "nonblank_lines": 73
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3ComponentFixed.lean",
+      "sha256": "512dd9ff3d2a6c2713525c0a618d4716f80908037c3c20d118adedc87a6cd19e",
+      "bytes": 3004,
+      "physical_lines": 84,
+      "nonblank_lines": 77
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3FourTermReversal.lean",
+      "sha256": "2abb0eaa064af1eb43735f0a0680acb1e98d6f77e322b60d96cea6644617fceb",
+      "bytes": 8276,
+      "physical_lines": 215,
+      "nonblank_lines": 201
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3IndicatorCharacteristic.lean",
+      "sha256": "9a32d5a18de09a8abd3f58f3a27a39472089fa39fd021ec4699d85c58c1b0ce0",
+      "bytes": 7460,
+      "physical_lines": 172,
+      "nonblank_lines": 162
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3NonergodicFourTerm.lean",
+      "sha256": "b733c27f6532c6b6da6cba2e8b698fb1ea72f4478425f7519f07d156805fa522",
+      "bytes": 19209,
+      "physical_lines": 459,
+      "nonblank_lines": 442
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3Nullspace.lean",
+      "sha256": "ca03d08ffeb9e2ea7b24825821a948dbdd5d4e7630b70d5afe55066cad5a8df6",
+      "bytes": 10658,
+      "physical_lines": 267,
+      "nonblank_lines": 251
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3OptimalProgressionDecay.lean",
+      "sha256": "8f77bccdf3f9ffbb44dd476b849fc126b0eb97fa5ec1c21a4f3a2e7a2d9a38c8",
+      "bytes": 59606,
+      "physical_lines": 1507,
+      "nonblank_lines": 1477
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3ProgressionDecay.lean",
+      "sha256": "015b196c47d5f5c963ca77c24621d9d5ce0c08ac15cbe7d3a03d73a807399c4c",
+      "bytes": 4267,
+      "physical_lines": 107,
+      "nonblank_lines": 98
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3UniformBlockReduction.lean",
+      "sha256": "c4f625f9ec6f3b57d3b1b3bf24d69a3e918fd743b7e98c115345c3d3b313dc36",
+      "bytes": 5433,
+      "physical_lines": 135,
+      "nonblank_lines": 125
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU3ZeroSubsequence.lean",
+      "sha256": "d6abbec7748326f68c1dd355818df6c1115b07eeab14507015f5bef0b441dac9",
+      "bytes": 2257,
+      "physical_lines": 66,
+      "nonblank_lines": 59
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4CartesianComponent.lean",
+      "sha256": "8138e1820cfc8a6e97e2f1982f7410a12fb9a2d8459d984f3e1a03b7bcd23a64",
+      "bytes": 2008,
+      "physical_lines": 50,
+      "nonblank_lines": 42
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4CartesianProduct.lean",
+      "sha256": "ddb0e0204444b9cf35be723ab8edeb855c76a22fa6732d4ce638c7e9b86f365e",
+      "bytes": 3005,
+      "physical_lines": 76,
+      "nonblank_lines": 68
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4Characteristic.lean",
+      "sha256": "e13111ee5006a7b1afed6da514c591f2de0ca5a4846541c4561a8e932ed0a904",
+      "bytes": 8161,
+      "physical_lines": 190,
+      "nonblank_lines": 179
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4GowersRecursion.lean",
+      "sha256": "f64bc35d9406cd3fb3abe54a7653b0f4c078a223470807d86dff993edfd0b33c",
+      "bytes": 2876,
+      "physical_lines": 74,
+      "nonblank_lines": 67
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4IndicatorCharacteristic.lean",
+      "sha256": "08d2f54d16ed4b04326678c80bc853fec3d93225c8a8df712abaa2d8ffadef01",
+      "bytes": 6446,
+      "physical_lines": 160,
+      "nonblank_lines": 151
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4Nullspace.lean",
+      "sha256": "0a42990b25dff70a07adb87d57fe7dfe070cfde4bd75ba3226db041cc18301b1",
+      "bytes": 7494,
+      "physical_lines": 190,
+      "nonblank_lines": 177
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4ProgressionDecay.lean",
+      "sha256": "9685bdd4757d41f3ef6a7f222f82a4560c2ac8c9e1f9ac221692a2c012cc3d95",
+      "bytes": 99480,
+      "physical_lines": 2508,
+      "nonblank_lines": 2447
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraU4UniformNormSq.lean",
+      "sha256": "0294a64777e3dbbb7a493069ddc6dee43451f70bcb8a3dee125bba7b0b7104a6",
+      "bytes": 4531,
+      "physical_lines": 111,
+      "nonblank_lines": 104
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraUniformComponentIntegration.lean",
+      "sha256": "1e56b088eea03bdf0348bcd4dda95c30231eefb0b1021de932515d0e8166d908",
+      "bytes": 2481,
+      "physical_lines": 67,
+      "nonblank_lines": 60
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraZ2Characteristic.lean",
+      "sha256": "00ea19fd7bdf3611fbb56c41446fb45b937e0ee36e5532b3257b857c0ef47082",
+      "bytes": 26802,
+      "physical_lines": 673,
+      "nonblank_lines": 626
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraZ2Factor.lean",
+      "sha256": "37e641b68bbafbf5b01225b24d3fa0497c134729847720e5870a47d5aae3339b",
+      "bytes": 7853,
+      "physical_lines": 200,
+      "nonblank_lines": 183
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKra/HostKraZ3Characteristic.lean",
+      "sha256": "8a548ab4928808352a7233db73b6c2c8dd903afc4e0335016d8898f32692c092",
+      "bytes": 8814,
+      "physical_lines": 226,
+      "nonblank_lines": 204
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/HostKraStage.lean",
+      "sha256": "e96d2b6873fd824aaec82ef6ec837c6b460ca5907389683fe4e7f1fade946afb",
+      "bytes": 975,
+      "physical_lines": 22,
+      "nonblank_lines": 18
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/All.lean",
+      "sha256": "326b31424f4b8407f917848a4dd68e220cd796b1676b6998371c585e07cab63e",
+      "bytes": 1293,
+      "physical_lines": 28,
+      "nonblank_lines": 26
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/BHKOrbitCoding.lean",
+      "sha256": "3f1f18574abb9e9835aeb6e2b631fc370a06de6d1142820d343ca6220987da67",
+      "bytes": 14142,
+      "physical_lines": 343,
+      "nonblank_lines": 315
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/BohrWeightedUniform.lean",
+      "sha256": "49fe64730708e066c352b8006ab03abf3d6a824373e557d1f0a26461cf1b53bb",
+      "bytes": 54567,
+      "physical_lines": 1422,
+      "nonblank_lines": 1366
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/Counterexamples.lean",
+      "sha256": "05190d793bc87c97044b7a859faef727113c96c4d7386f73f221339063deb286",
+      "bytes": 11495,
+      "physical_lines": 294,
+      "nonblank_lines": 270
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/ForwardKroneckerBohr.lean",
+      "sha256": "cb097af697dbcfb56257f4a8a5202e8c05c78bdc9a34e964078c58c7221f26cd",
+      "bytes": 37837,
+      "physical_lines": 1012,
+      "nonblank_lines": 969
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/ForwardKroneckerFactor.lean",
+      "sha256": "af8bd25ffa78a79f4c372ab8e42603fcb6d0d663eaeb794f8183db697139e86c",
+      "bytes": 61169,
+      "physical_lines": 1500,
+      "nonblank_lines": 1430
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/Khintchine.lean",
+      "sha256": "68cb8db567c52b0b45d434371391de237318f44a841974bcfa166f21f468ee4c",
+      "bytes": 14036,
+      "physical_lines": 340,
+      "nonblank_lines": 325
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchine.lean",
+      "sha256": "be5b5da783f02ec7b3b9cb469243e41552e37b76983b68e1c28a724f726cba35",
+      "bytes": 1163,
+      "physical_lines": 34,
+      "nonblank_lines": 28
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineAssembly.lean",
+      "sha256": "2c3e6ab7318bc12989e86169e43006f2bd9dc4901a26e516753dbf50fe6247ab",
+      "bytes": 3726,
+      "physical_lines": 98,
+      "nonblank_lines": 89
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineBohrTriple.lean",
+      "sha256": "6140f3319fac613a00313053792df14c647f1177dea6e3549fed186dc1db0377",
+      "bytes": 5354,
+      "physical_lines": 169,
+      "nonblank_lines": 162
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineCartesian.lean",
+      "sha256": "cc21ab559c163afae686932fac734fbbc726cc082b5bf56e3ec1207d49ddea54",
+      "bytes": 11437,
+      "physical_lines": 280,
+      "nonblank_lines": 259
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineCartesianCharacteristic.lean",
+      "sha256": "c9de1f6db6db32126f1e7deb10e352d31d61acb28b88fc9f828e6ca88bbc629d",
+      "bytes": 5511,
+      "physical_lines": 131,
+      "nonblank_lines": 123
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineCharacteristic.lean",
+      "sha256": "b0a572b6d80266720e0a80db56e284694986efd040c5d85124c6f61c37966e3f",
+      "bytes": 64210,
+      "physical_lines": 1612,
+      "nonblank_lines": 1553
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineFactor.lean",
+      "sha256": "f6467293f0b89a103d40d4b33d4707cd63485c01bf5e87db35b4ab4ded49e863",
+      "bytes": 15287,
+      "physical_lines": 367,
+      "nonblank_lines": 350
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineKronecker.lean",
+      "sha256": "ad635c4b6c88d082adb9c79c0e2e84400aaeaa1578f28b9f7b6226636e83508c",
+      "bytes": 32532,
+      "physical_lines": 828,
+      "nonblank_lines": 788
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineProductInvariant.lean",
+      "sha256": "55c7c34c8b7025ebe050b3928fb8f3fe6ab5662774b6aecfa6d81367d93599f9",
+      "bytes": 90477,
+      "physical_lines": 2244,
+      "nonblank_lines": 2164
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineRelativeUniform.lean",
+      "sha256": "e2bd2eeba5dbc0c97196445fff7594075a979d574e01527560198bf2ce7df081",
+      "bytes": 28055,
+      "physical_lines": 674,
+      "nonblank_lines": 653
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineSyndetic.lean",
+      "sha256": "a64a7871d3c3c050b05e03e128042c03e8d478c73af1cc6bbe6c1e256f95913c",
+      "bytes": 13594,
+      "physical_lines": 365,
+      "nonblank_lines": 345
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineTensorContinuous.lean",
+      "sha256": "8402572939d4c8f677d9ce505917b100a8ac70ad7f97015a47e44c513632989c",
+      "bytes": 11029,
+      "physical_lines": 279,
+      "nonblank_lines": 269
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineTriple.lean",
+      "sha256": "e61af9cbf1403356c250988ae7ca0e7f53458ae1850e2a4d601085935cd55afe",
+      "bytes": 3418,
+      "physical_lines": 88,
+      "nonblank_lines": 81
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/MultipleKhintchineUniform.lean",
+      "sha256": "e9cfe6ff1da9af8aa811a2f1f4899528dcbc7a889231195bfe835592cf68e1f6",
+      "bytes": 35261,
+      "physical_lines": 889,
+      "nonblank_lines": 875
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Recurrence/WeightedSyndeticTransfer.lean",
+      "sha256": "a837289b95ec941ab7946243958f7c2a1c5c74147fad3c2fc5b140d111ead079",
+      "bytes": 10085,
+      "physical_lines": 283,
+      "nonblank_lines": 277
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section01.lean",
+      "sha256": "2d004a02f098117cfac6a3b75c4113e2311cfe771002f81ac7b87d9704438cd7",
+      "bytes": 44312,
+      "physical_lines": 1037,
+      "nonblank_lines": 1003
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section02.lean",
+      "sha256": "fc6ae56a0a1b9533569f4ceba64612d6653c3c1c013ed8d4481ad635dbdab7a1",
+      "bytes": 9107,
+      "physical_lines": 219,
+      "nonblank_lines": 204
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section03.lean",
+      "sha256": "cce8f60c6ddd52cf572b39c74e43b613d86279b4f89b83237eaea31732e4f836",
+      "bytes": 12333,
+      "physical_lines": 295,
+      "nonblank_lines": 275
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section04.lean",
+      "sha256": "25d8615920ace0c664e5583a6342e723738f7b94ab588e6bee50aec83c9261f1",
+      "bytes": 16128,
+      "physical_lines": 374,
+      "nonblank_lines": 348
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section05.lean",
+      "sha256": "f90a2e3e8edc356995b74512b3c8f6bc0f8277895e8c7eeb8621657d5d51f223",
+      "bytes": 5496,
+      "physical_lines": 139,
+      "nonblank_lines": 117
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Section06.lean",
+      "sha256": "6ce314b89ee87784f661ce756d37521e06c199955449b45be7cb3f8c309ac643",
+      "bytes": 5154,
+      "physical_lines": 123,
+      "nonblank_lines": 102
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/All.lean",
+      "sha256": "c4e6e13a87925592397a8531e39c6f9084be66d05a2d821773568b8ec04b8813",
+      "bytes": 2621,
+      "physical_lines": 59,
+      "nonblank_lines": 57
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/AlmostPeriodic.lean",
+      "sha256": "bbbd6dd0047ec86bba87d4015cc7c5c53309363c07414feafd723e4a7787f2ca",
+      "bytes": 24296,
+      "physical_lines": 603,
+      "nonblank_lines": 572
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/AlmostPeriodicIsometry.lean",
+      "sha256": "ed1ba1fc835c7d5d8771405ce1ec6c10ee28aa3cb0f363d20109ecb2e620ea27",
+      "bytes": 21588,
+      "physical_lines": 556,
+      "nonblank_lines": 522
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CircleFourier.lean",
+      "sha256": "9cf623d91075cc4fcf4dac3a2f02440df6c0eddb6931f26469f39e151dc0cf62",
+      "bytes": 12373,
+      "physical_lines": 282,
+      "nonblank_lines": 258
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CircleFourierUniqueness.lean",
+      "sha256": "96516dd3d56351cdca35ccd32ec8ffca2c0f7ae09fc3987d643853ee0710c2a8",
+      "bytes": 8735,
+      "physical_lines": 188,
+      "nonblank_lines": 180
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CircleLaurent.lean",
+      "sha256": "eebda715c5ef556bbacdf0a075ed1799b2013edfdc9d9bea8d293d702ef7674d",
+      "bytes": 4409,
+      "physical_lines": 120,
+      "nonblank_lines": 101
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactAbelianPeterWeyl.lean",
+      "sha256": "2f5ed69e845eb05bb366fbdd4f56758be393d48ce169500ad5dfdbb9241203ac",
+      "bytes": 8052,
+      "physical_lines": 216,
+      "nonblank_lines": 193
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactDiscrete.lean",
+      "sha256": "0fb7386dd5c11197ea5b206a6e8f8e63de5255dbb426623b363e296c62ff264d",
+      "bytes": 20522,
+      "physical_lines": 442,
+      "nonblank_lines": 427
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactFredholm.lean",
+      "sha256": "2bb67e0cc423596a9220e64765bf465495a5debb0501e39aa0c772e201d9f61d",
+      "bytes": 8755,
+      "physical_lines": 218,
+      "nonblank_lines": 207
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactHaarCharacters.lean",
+      "sha256": "76049c1010003e315ed75701830320f6f46fe03e694e167c759b1129fcb7ea8b",
+      "bytes": 22934,
+      "physical_lines": 584,
+      "nonblank_lines": 540
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactHaarFourierUniqueness.lean",
+      "sha256": "56c6050043c8f1860553056665a6db383503d38e0fc7ba312d80057f59dce32a",
+      "bytes": 4165,
+      "physical_lines": 121,
+      "nonblank_lines": 113
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactHaarMixing.lean",
+      "sha256": "4e52c226e21cb83e606f970e48863c96c5618a4dcb55511d3808a3c0d0c02fd4",
+      "bytes": 22746,
+      "physical_lines": 562,
+      "nonblank_lines": 551
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CompactKernelConsequences.lean",
+      "sha256": "30a81f896a38ca4dd71ed856acbf2b018ebdc0423ed82ed8933b04f1279f88e4",
+      "bytes": 1850,
+      "physical_lines": 51,
+      "nonblank_lines": 44
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CyclicMeasureType.lean",
+      "sha256": "b9fd62a17915f42acb4dca08f6788489674a2f2a05ffaf4f0e9d71a4b6a6c2ce",
+      "bytes": 5035,
+      "physical_lines": 121,
+      "nonblank_lines": 108
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CyclicOrthogonalSingularity.lean",
+      "sha256": "88c4ac122916ea12f1352676328a8a42c9f93b520fcd8df5aaf97016524d7a70",
+      "bytes": 13602,
+      "physical_lines": 299,
+      "nonblank_lines": 284
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/CyclicSpectralModel.lean",
+      "sha256": "7280109466b236a422cf74c30b85e9cfc7a46a33414cb0f263a81bbd92124b75",
+      "bytes": 35005,
+      "physical_lines": 838,
+      "nonblank_lines": 778
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/DenseMaximalVectors.lean",
+      "sha256": "4878f4e0d8f56a9a9ce14a6e71861edaccdb6c8253799a04b6ea1f1aa790e2cd",
+      "bytes": 12490,
+      "physical_lines": 295,
+      "nonblank_lines": 281
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/DirectSumMeasureCoordinates.lean",
+      "sha256": "1eeb41d7aa8aefae10278cc86faa633d6a48f82e3f3496890a82f84eddcdd341",
+      "bytes": 10257,
+      "physical_lines": 212,
+      "nonblank_lines": 199
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/DirectSumSpectralModel.lean",
+      "sha256": "036d8f7079c0b4080e87d5881d3551ea85538d883788f9369e580583f5002466",
+      "bytes": 14205,
+      "physical_lines": 306,
+      "nonblank_lines": 280
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/EigenfunctionLemmas.lean",
+      "sha256": "2be6f07674406f30d738ffa9bd39c3322c5b5a82a4da27f0e78f61ee98285836",
+      "bytes": 9169,
+      "physical_lines": 226,
+      "nonblank_lines": 217
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/EigenvalueCountability.lean",
+      "sha256": "91b389a3cb2e5b7e8397a124e58fe0a8769abf475d82ff6a4796709cea4db85c",
+      "bytes": 4378,
+      "physical_lines": 102,
+      "nonblank_lines": 96
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/FiniteCyclicCoordinates.lean",
+      "sha256": "dff709630136fdad19419edda0586b0e9b2644240ed391da3c1723af41caa4de",
+      "bytes": 16008,
+      "physical_lines": 358,
+      "nonblank_lines": 340
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/FiniteDirectSumOrthogonality.lean",
+      "sha256": "f1fa23593518348a506062df5eadec1cac4b97eb56e36e9d973beaf383a53a6f",
+      "bytes": 15952,
+      "physical_lines": 325,
+      "nonblank_lines": 315
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/FiniteSpectralRank.lean",
+      "sha256": "bd36bc5c091f527c63ae83dc449d703b9e10cc35f82961df675426f3f459fa80",
+      "bytes": 3601,
+      "physical_lines": 93,
+      "nonblank_lines": 85
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/Herglotz.lean",
+      "sha256": "1b3f3b1d66ef82eeb68da19ac9a932b91d4768e911ce9817ffd53e35ed41cb74",
+      "bytes": 26024,
+      "physical_lines": 572,
+      "nonblank_lines": 530
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/HilbertDirectSum.lean",
+      "sha256": "6a47a9f930aece7f610572ff9d2794844ce55a58b9e3cbda423986422d55c877",
+      "bytes": 11501,
+      "physical_lines": 272,
+      "nonblank_lines": 248
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/HilbertSchmidtConsequences.lean",
+      "sha256": "b5ab432473657f0c4a18e3314708ce3b85854713fcbeeb3ba3849bc6f5a15eb8",
+      "bytes": 22313,
+      "physical_lines": 520,
+      "nonblank_lines": 493
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/HilbertSchmidtInvariant.lean",
+      "sha256": "0a5423b67c04fe3b9220bfc6d4a87afb565e8c9555d618b7f309fb12142a8d8e",
+      "bytes": 44888,
+      "physical_lines": 1083,
+      "nonblank_lines": 1053
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/IsometryWiener.lean",
+      "sha256": "b8d94b8e8f0d2343941d61e2bf7f0b1ff05ac13f330a0c6cf50ad3074ce411d8",
+      "bytes": 15591,
+      "physical_lines": 393,
+      "nonblank_lines": 364
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/MaximalSpectralType.lean",
+      "sha256": "41cf69ac14abde70327317b90fce54ac48de8527e64eb2527c674465c5453cd1",
+      "bytes": 24391,
+      "physical_lines": 542,
+      "nonblank_lines": 503
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/MultiplicityStrata.lean",
+      "sha256": "19e930b73497ae063db6d66358050f238e1affc60d80b08c94055a4bac84703d",
+      "bytes": 3445,
+      "physical_lines": 93,
+      "nonblank_lines": 78
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedDirectSum.lean",
+      "sha256": "6da6f3ff3a00d6606b65e86966605f645bcf72b1a5cbca3cd714ac50ebc94a92",
+      "bytes": 953,
+      "physical_lines": 27,
+      "nonblank_lines": 21
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedMultiplicityDecomposition.lean",
+      "sha256": "ec9e2103eac920c6fcde82eded4947c4fe87cef83d7ea0199f06046ef6208c52",
+      "bytes": 59391,
+      "physical_lines": 1291,
+      "nonblank_lines": 1232
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedMultiplicitySupports.lean",
+      "sha256": "6f099d210a63f924b1574cfc3ba31dced600c7d494dc2a357ea8fc0e9ef3097d",
+      "bytes": 8963,
+      "physical_lines": 203,
+      "nonblank_lines": 180
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedMultiplicityVectors.lean",
+      "sha256": "5804196e602366bdd8dfa449cb27d81cc60ba33ff61df9fbe7a91d3bf542396d",
+      "bytes": 12226,
+      "physical_lines": 264,
+      "nonblank_lines": 242
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedSpectralDecomposition.lean",
+      "sha256": "87f6eb8f9488bd7a9ab46b1d92f62432af567ee7575204b9da69cb276c30ac0d",
+      "bytes": 19018,
+      "physical_lines": 416,
+      "nonblank_lines": 373
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrderedSpectralUniqueness.lean",
+      "sha256": "d2d2925c3d794bf0afd9fdcc05ba6d1cb6e4d7d29b771b1b63122a3a74951fc5",
+      "bytes": 3505,
+      "physical_lines": 83,
+      "nonblank_lines": 74
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/OrthogonalCyclicDecomposition.lean",
+      "sha256": "c02e3fc2905bd7d7482e438c6c10c23f26a70e45f3e2afb5423a68aa34f1e194",
+      "bytes": 16695,
+      "physical_lines": 397,
+      "nonblank_lines": 361
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/PontryaginSeparation.lean",
+      "sha256": "ea3f0800b42a2c144a8437334cd3212af29fd8b811f47bfc166b9a01b3affd51",
+      "bytes": 41059,
+      "physical_lines": 1030,
+      "nonblank_lines": 962
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/RadonNikodymTransfer.lean",
+      "sha256": "592b001cb315f0a233e9c23fa4cb69f0a2361c857eed5d1a57e0cffe3961e39e",
+      "bytes": 11968,
+      "physical_lines": 257,
+      "nonblank_lines": 237
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SeparatedKernelDensity.lean",
+      "sha256": "45608dad64667a82a7e73507ae3814923ef40ac87499fe3b40afaedff0351cb9",
+      "bytes": 15364,
+      "physical_lines": 374,
+      "nonblank_lines": 352
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralClassification.lean",
+      "sha256": "9f182cae13902cf2e1e3d5c2c9950195f686603315e49ed68fd4c3d592a6e776",
+      "bytes": 25992,
+      "physical_lines": 577,
+      "nonblank_lines": 546
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralDecomposition.lean",
+      "sha256": "0c518a2c46593e3e9c52f5c25eead72d58295fa0a239e3cf611fb69abd4f43b5",
+      "bytes": 17205,
+      "physical_lines": 405,
+      "nonblank_lines": 370
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralMeasure.lean",
+      "sha256": "b45aa4a5473a3e53d4c5ba495355e04fea75c5b55acd4f1eb29e0bc1322c9924",
+      "bytes": 6195,
+      "physical_lines": 156,
+      "nonblank_lines": 141
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralMeasureType.lean",
+      "sha256": "a6b36e74e4eb29cc3d7e0042ac3df59f24f1d27ace62d45de1aeaca1673b0b9b",
+      "bytes": 25095,
+      "physical_lines": 557,
+      "nonblank_lines": 524
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralMixing.lean",
+      "sha256": "1c3b9c160f84eed38f1c98528bb75fbc57b4d257dc114a9f9447cc8da68d0bc7",
+      "bytes": 24110,
+      "physical_lines": 524,
+      "nonblank_lines": 507
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralMultiplicityCounterexample.lean",
+      "sha256": "e8e91be83609a2f02970325e101d0cbc675320fb6fc469b9df4816ae31380a0e",
+      "bytes": 5536,
+      "physical_lines": 147,
+      "nonblank_lines": 127
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralPointMass.lean",
+      "sha256": "b8b0cb8adce8be4f2e62ca3c715e380fdbf5bbc7da0c5106cff28e6eb555a061",
+      "bytes": 7684,
+      "physical_lines": 172,
+      "nonblank_lines": 159
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralRelations.lean",
+      "sha256": "1efa4d7f9d38b5e5a100263d40cef5ca60c9cf1981c0ab413bb19171d8d7f668",
+      "bytes": 10607,
+      "physical_lines": 230,
+      "nonblank_lines": 216
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/SpectralWiener.lean",
+      "sha256": "b4ad420d07cf185fc11a11e9a9fe98d3da8729cb16baad509b5e978e59fac6b8",
+      "bytes": 17415,
+      "physical_lines": 427,
+      "nonblank_lines": 400
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/TorusDualMatrixBridge.lean",
+      "sha256": "a3ba2979b939b13da7e46de929d2e29f7d9d04aa3e72e7087579dd4f19f24bca",
+      "bytes": 19504,
+      "physical_lines": 515,
+      "nonblank_lines": 478
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/WeakSpectrum.lean",
+      "sha256": "5139ccbe21ebf82f9be6bbe5416700fdb7a41352c241b109c3b67de5485031a7",
+      "bytes": 26736,
+      "physical_lines": 645,
+      "nonblank_lines": 607
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter02/Spectral/WienerInvariant.lean",
+      "sha256": "bc06d8457b80937eadf534f5e6500a059da51f915e09f7554efc95249b3e44a2",
+      "bytes": 11155,
+      "physical_lines": 268,
+      "nonblank_lines": 255
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03.lean",
+      "sha256": "db7e7b0f4a73b7177d755438cbc54461736529ed8f6ccae7851e5b758c68740f",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/AllSections.lean",
+      "sha256": "98286215319eebbaed27a28100380aec2c7b6e9f4027927df0016b8874f51ffd",
+      "bytes": 175,
+      "physical_lines": 8,
+      "nonblank_lines": 6
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/Common.lean",
+      "sha256": "5d0b61252e8914ad6a292947b6453dadcd02d4889a467978cd45f965f749e698",
+      "bytes": 9917,
+      "physical_lines": 259,
+      "nonblank_lines": 199
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/ContinuedFractions/All.lean",
+      "sha256": "f3a23b4e8f36be4de8febd546d4856f08cb8ff10afd7d46e1aae5e15039b89aa",
+      "bytes": 326,
+      "physical_lines": 10,
+      "nonblank_lines": 8
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/ContinuedFractions/DigitFrequency.lean",
+      "sha256": "65536a864fa0e520b8b89c2edd0d1bc3ff5563a586488bff9782348d188c39af",
+      "bytes": 10767,
+      "physical_lines": 255,
+      "nonblank_lines": 241
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/ContinuedFractions/GaussErgodic.lean",
+      "sha256": "267f3838b440cecd30bd8344989c10f4a32218f856a4bacf89d72f83b5cb0014",
+      "bytes": 45260,
+      "physical_lines": 1087,
+      "nonblank_lines": 998
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/ContinuedFractions/GaussMeasure.lean",
+      "sha256": "8050ac928e27cf447d0c59c066e84fe522c87c45a58fc2846b5276ad4bb0429f",
+      "bytes": 18023,
+      "physical_lines": 447,
+      "nonblank_lines": 420
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/Core.lean",
+      "sha256": "06e779b0aa839672a8faccde154e88b4a1c0972d5f319cf8197475bf7d44d5d5",
+      "bytes": 220,
+      "physical_lines": 9,
+      "nonblank_lines": 7
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/LimitLaws/All.lean",
+      "sha256": "51bca9ca1af5ea4a0125a3ebe8d885705ce5157543139a76e72aef9c223d27ce",
+      "bytes": 310,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/LimitLaws/ErrorLaws.lean",
+      "sha256": "e7bb01b9dd6db6d0f7c8bfa93723671dd2f04ec4dd6f2d32e1025e1c76eaaca2",
+      "bytes": 6935,
+      "physical_lines": 168,
+      "nonblank_lines": 163
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/LimitLaws/LevyIntegral.lean",
+      "sha256": "71efd610260c47afaf9faf8d611139b4cf178589e3e73b572796eede6e93de44",
+      "bytes": 10656,
+      "physical_lines": 240,
+      "nonblank_lines": 230
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/LimitLaws/LevyLaws.lean",
+      "sha256": "ccc8874aa971156092f0b8a092bd8f89037be1a78b2fdf0685543bfc9ab67bf1",
+      "bytes": 7844,
+      "physical_lines": 187,
+      "nonblank_lines": 176
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/LimitLaws/MetricLaws.lean",
+      "sha256": "f53a066addd60bd76b9604f4193ed9474517ba7e4754de6464a4b1a9b70119c0",
+      "bytes": 27896,
+      "physical_lines": 643,
+      "nonblank_lines": 601
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/Section01.lean",
+      "sha256": "cbe2e4fab137d9e9a95a81560b37736922d51f25cffe4672ee516adc1dbe3f38",
+      "bytes": 119825,
+      "physical_lines": 2718,
+      "nonblank_lines": 2605
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/Section02.lean",
+      "sha256": "ddbdb84fba74cfff274d9f506bdf43ef35835a53c2603f02f06c3de3342eedde",
+      "bytes": 4330,
+      "physical_lines": 120,
+      "nonblank_lines": 107
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter03/Section03.lean",
+      "sha256": "94c4053f39d3c1273e80166e99eba5abad2c8ea3bd22c24a30e10800174ce73a",
+      "bytes": 3541,
+      "physical_lines": 99,
+      "nonblank_lines": 88
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04.lean",
+      "sha256": "bf491150196034a15d18a071d721fa0da15b70ec81a514faa7d7a22c44296390",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/AllSections.lean",
+      "sha256": "0d3cee0721340cdd839f1087773fab62948d14b5218e5fea36029174bfe5f2e4",
+      "bytes": 256,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Common.lean",
+      "sha256": "7d5bece87d06882018bf67f0a632f5bd235808d102ba94b0832f3f7d88d5e6de",
+      "bytes": 31538,
+      "physical_lines": 672,
+      "nonblank_lines": 570
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Core.lean",
+      "sha256": "bca7419e5d4671191eaf1f95e6d7391c2b279980c04a29ad9119a27c0ad215ec",
+      "bytes": 319,
+      "physical_lines": 12,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/All.lean",
+      "sha256": "8e33c00b3ea906986261787dffc2ab71aad3ae3f7d84a237c76a96e5c47cf8a5",
+      "bytes": 642,
+      "physical_lines": 17,
+      "nonblank_lines": 15
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/AnalyticData.lean",
+      "sha256": "06e4134f0b8c64dbf0949a1f2c3ceb1b1376f19aa276b8d4b4848275d6d51371",
+      "bytes": 6034,
+      "physical_lines": 158,
+      "nonblank_lines": 146
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/AnalyticUniformization.lean",
+      "sha256": "a5a240208bdd1c4244f4acd9dfba7019f01048c1b341a97f9b70aadc089af0dc",
+      "bytes": 19610,
+      "physical_lines": 537,
+      "nonblank_lines": 502
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/AnalyticUniversal.lean",
+      "sha256": "119d53b7262ba33414a1f9aa6a8e003e5cd24e2cd01225e410a3e831e35ce636",
+      "bytes": 13946,
+      "physical_lines": 394,
+      "nonblank_lines": 361
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/CountableCodeFactor.lean",
+      "sha256": "6c83cd0959944c16ad3604fcb612e7eb67b266cc6a7d2a5b4b6b1c022b0540c0",
+      "bytes": 17541,
+      "physical_lines": 421,
+      "nonblank_lines": 403
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/CountablyGeneratedModNull.lean",
+      "sha256": "2dd624cbdba8fec2fa8ad2c1a680ae36f3c9888e11197946ab254e6b7a603d86",
+      "bytes": 6574,
+      "physical_lines": 166,
+      "nonblank_lines": 159
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/DynamicsSpatial.lean",
+      "sha256": "f82c06831adeb543b909659bc9ea9a42e5c976d2fd145fd19ec30b48f1039240",
+      "bytes": 13228,
+      "physical_lines": 292,
+      "nonblank_lines": 283
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/Invertibility.lean",
+      "sha256": "e38eb2716f96264c26e771fcb6f7c585e387428a21a8d36faca6c373a2977d57",
+      "bytes": 5748,
+      "physical_lines": 136,
+      "nonblank_lines": 129
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/ProbabilityRepresentation.lean",
+      "sha256": "1f339f1fc4944938a40d0bd69575c4ca753e61ae60a4e61837b6a67fe12a34bf",
+      "bytes": 15467,
+      "physical_lines": 381,
+      "nonblank_lines": 361
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/ProbabilitySpatial.lean",
+      "sha256": "5ef847481ba42ce6c461f7550c313dc038af668d2f00ff66be9319551a5721e0",
+      "bytes": 3727,
+      "physical_lines": 88,
+      "nonblank_lines": 81
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Descriptive/StandardBorel.lean",
+      "sha256": "0d580d255814eea9ee66a2b38987db05fbb85563695e0f0dcba8b74669c3d97d",
+      "bytes": 8156,
+      "physical_lines": 187,
+      "nonblank_lines": 172
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Ergodic/All.lean",
+      "sha256": "0b0dd798384459abc19ed57afcf66974f7f89602511d003b319de4d9de65d837",
+      "bytes": 276,
+      "physical_lines": 10,
+      "nonblank_lines": 8
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Ergodic/ErgodicDecomposition.lean",
+      "sha256": "7c1836b0f09937426eed93978eb2b4fe9b1d27ba7279d2bd0ff8c882672c5306",
+      "bytes": 5499,
+      "physical_lines": 153,
+      "nonblank_lines": 139
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Ergodic/ErgodicFactor.lean",
+      "sha256": "9dee4ad7935847a9659d246e0791f7898cbdaf24e87eafeda9fcc166928df5f1",
+      "bytes": 2933,
+      "physical_lines": 79,
+      "nonblank_lines": 73
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Ergodic/Exhaustion.lean",
+      "sha256": "9a3c774750b15308a8b37d05e32d22105324caeed59bd18aee88f7f4287e25a9",
+      "bytes": 5443,
+      "physical_lines": 132,
+      "nonblank_lines": 125
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Examples/All.lean",
+      "sha256": "01311e5eb6da2c4d8303daeeb5d6534f629da036c8f4168050dca10547d1d785",
+      "bytes": 199,
+      "physical_lines": 8,
+      "nonblank_lines": 6
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Examples/Counterexamples.lean",
+      "sha256": "9ad2dbf70972cda259e8b1c62d4e7577c3a24fc7504fd4c9c6af7eb4c5a1ca1b",
+      "bytes": 20867,
+      "physical_lines": 531,
+      "nonblank_lines": 496
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/AlgebraClosure.lean",
+      "sha256": "1b4d5e7901b715328ab51696590fdcfa30c41f91e6b07f14ca5835e0ae251da3",
+      "bytes": 13632,
+      "physical_lines": 319,
+      "nonblank_lines": 311
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/All.lean",
+      "sha256": "41b03b6b6defd35054f2f34ced2e47eaa16fcecefd935653a4950bddba94d550",
+      "bytes": 1063,
+      "physical_lines": 24,
+      "nonblank_lines": 22
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/InducedMeasureAlgebra.lean",
+      "sha256": "032232a6190ac7770f60096638e8d8fd7e9750391da010c0868a12df78bc6f5c",
+      "bytes": 5169,
+      "physical_lines": 142,
+      "nonblank_lines": 136
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/InducedMeasureAlgebraSeparable.lean",
+      "sha256": "8102fa801db81f58edc30a6115dad00d353ec5d3002e7fc7dbbff0d810edfc7a",
+      "bytes": 5875,
+      "physical_lines": 145,
+      "nonblank_lines": 138
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/InvariantSubSigmaFactor.lean",
+      "sha256": "f5493832b2525e77926367f3f87a860da73698f53d035a3aa3f5bf51c11a069d",
+      "bytes": 5739,
+      "physical_lines": 161,
+      "nonblank_lines": 148
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/InvariantSubSigmaQuotient.lean",
+      "sha256": "85aef7505e25c15c21ef7b9be9324e42113231082892b2600d24fbc5f27b0927",
+      "bytes": 9820,
+      "physical_lines": 261,
+      "nonblank_lines": 241
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/InverseLtwo.lean",
+      "sha256": "b5884e1190d48716f7f8a56b5891ac55dd527678ed0154b2fe58a9815e12378a",
+      "bytes": 11116,
+      "physical_lines": 249,
+      "nonblank_lines": 239
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/LinfClosure.lean",
+      "sha256": "ab2bb27afc724c1dca36fb41f96e619a474b5eb0565bb0942b31b5058023602b",
+      "bytes": 14291,
+      "physical_lines": 332,
+      "nonblank_lines": 319
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/LtwoProjection.lean",
+      "sha256": "3bb49fd4c2041cf8f3811357aaa63579f51e19d976bd15429132c5a8dde3f327",
+      "bytes": 33667,
+      "physical_lines": 810,
+      "nonblank_lines": 777
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/LtwoPullback.lean",
+      "sha256": "00cd71ac2671a4ada87555aa3e5ed7a744c7e95c78f08f188dbd9605cdbd1a84",
+      "bytes": 4015,
+      "physical_lines": 100,
+      "nonblank_lines": 92
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraDynamics.lean",
+      "sha256": "3b0cd739d5f3398b16752916be2ee0ae9e2d77b3b30a0d63a1a7486edb4ff193",
+      "bytes": 14431,
+      "physical_lines": 326,
+      "nonblank_lines": 316
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraLtwo.lean",
+      "sha256": "96d641b4135db0b45cf137b310c5606c311f68d0a1583f53fd8be2ea7ab6d78b",
+      "bytes": 56052,
+      "physical_lines": 1337,
+      "nonblank_lines": 1280
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraPullback.lean",
+      "sha256": "524a9e831e75c5759aa6737199e78e1cfac98a6b463370a11cc7b3ca8905980e",
+      "bytes": 9667,
+      "physical_lines": 225,
+      "nonblank_lines": 218
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraRepresentation.lean",
+      "sha256": "b99b41670b940f7b648fdee49cc5dab5556f97ac3a2251449e75a455ba992e63",
+      "bytes": 24309,
+      "physical_lines": 602,
+      "nonblank_lines": 560
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraSpatial.lean",
+      "sha256": "8cb7a8d7ca944ea89d5b9234570604ccbd16bc1ab35a8d23ebb2e47bbc6257d8",
+      "bytes": 4680,
+      "physical_lines": 101,
+      "nonblank_lines": 93
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraStone.lean",
+      "sha256": "102890711bd56985152eb658c31c2183b92430e572770938713394a23d49775b",
+      "bytes": 20559,
+      "physical_lines": 524,
+      "nonblank_lines": 476
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/MeasureAlgebraStoneDynamics.lean",
+      "sha256": "ac31831309594decc239aeec7656e6f39c7aa009fc945e0d218cafb92d8b8d16",
+      "bytes": 11791,
+      "physical_lines": 315,
+      "nonblank_lines": 285
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/MeasureAlgebra/QuotientBoolean.lean",
+      "sha256": "18748eb28c57a09292c0d401085d3c096bbc774890c92240dbb4cbab27641f8b",
+      "bytes": 31192,
+      "physical_lines": 668,
+      "nonblank_lines": 646
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section01.lean",
+      "sha256": "ccd48c586ae18a14ee5c89d1576410b37df5ac02b8a9f292591544a14293949c",
+      "bytes": 43092,
+      "physical_lines": 1025,
+      "nonblank_lines": 989
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section02.lean",
+      "sha256": "8f5e812c30bff463d2d48bf1b2806e9656869740ebad54b564f55553c9e2b161",
+      "bytes": 10434,
+      "physical_lines": 243,
+      "nonblank_lines": 226
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section03.lean",
+      "sha256": "556a69e0fe088442d9187c27f33bf0f4dcd384cd9ef5183760d7e35e7a45c0b1",
+      "bytes": 4310,
+      "physical_lines": 123,
+      "nonblank_lines": 107
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section04.lean",
+      "sha256": "62d28e46ba5cd4ded363dc09606c216932ae12ae44c9151ab7782353f488c7f9",
+      "bytes": 7202,
+      "physical_lines": 186,
+      "nonblank_lines": 166
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section05.lean",
+      "sha256": "c7412e77412fbaed0af3b444f6d4c9ee7db6d03c5ccfa7a5c398c34ffdbe1740",
+      "bytes": 3939,
+      "physical_lines": 112,
+      "nonblank_lines": 99
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Section06.lean",
+      "sha256": "6e39177e5daf9e4d73209e6ce6a2306edf9395aea7928dd35fb079d866dea5c1",
+      "bytes": 1172,
+      "physical_lines": 38,
+      "nonblank_lines": 30
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/All.lean",
+      "sha256": "6bb592eaecd7a22f860f7a2c36ba3f759da55fb49c663563e0db41345f0c7f8c",
+      "bytes": 588,
+      "physical_lines": 16,
+      "nonblank_lines": 14
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/BernoulliKolmogorov.lean",
+      "sha256": "9c04a2f5ef6253d6124318578a015163c6cd521528a2784384f8653ac5680f7f",
+      "bytes": 36932,
+      "physical_lines": 932,
+      "nonblank_lines": 889
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/DiscreteSpectrumBridge.lean",
+      "sha256": "6464cea2d47e5f7f83bbd36115eca6149b0d57caf6ce2dd4cfa47710ab106965",
+      "bytes": 651,
+      "physical_lines": 22,
+      "nonblank_lines": 17
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectralBasis.lean",
+      "sha256": "a08b4d82138a95aeee32f6133ffaf67d057fe6daa1239fad8bfa37d7cf1b1580",
+      "bytes": 15919,
+      "physical_lines": 346,
+      "nonblank_lines": 329
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectralEquiv.lean",
+      "sha256": "21a50a158c235b449eccb37139c0602b108ccffe67b1d47811cbeacf0017eede",
+      "bytes": 8714,
+      "physical_lines": 184,
+      "nonblank_lines": 174
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectralIsomorphism.lean",
+      "sha256": "98e0300aa63b06d2d9dcefdb8256b69a1bb1a55a32e26de2efee2dcd30d72bcb",
+      "bytes": 6617,
+      "physical_lines": 155,
+      "nonblank_lines": 147
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectrum.lean",
+      "sha256": "fb398857cdbcdbad248c6ed2ab2ad5f2efe6aa565620e1ede0afc1f88d7e0d05",
+      "bytes": 10339,
+      "physical_lines": 249,
+      "nonblank_lines": 234
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectrumMixing.lean",
+      "sha256": "56f945a37ff8b8fc191071fd957baba433bd110a300d1f00ad1290209b713c72",
+      "bytes": 6008,
+      "physical_lines": 118,
+      "nonblank_lines": 112
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LebesgueSpectrumStrongMixing.lean",
+      "sha256": "925a2d57415434f07de976ad2a6207414b220931ff7a30ab59708c32adb6100a",
+      "bytes": 7061,
+      "physical_lines": 141,
+      "nonblank_lines": 135
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter04/Spectral/LpMultiplier.lean",
+      "sha256": "b23fc8f283f220a40331f8b23c17b5aabde5539db36e497c087ae505901c325a",
+      "bytes": 7340,
+      "physical_lines": 154,
+      "nonblank_lines": 147
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05.lean",
+      "sha256": "c3280cd6f3450a72853d3e3341d6206a37fa2a66d16eee933a8b28e398e37b94",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/AllSections.lean",
+      "sha256": "b49b19d61e2436e77a13ca351148ed8585c07e27c506930ac49e21deea3dc3ba",
+      "bytes": 283,
+      "physical_lines": 12,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Common.lean",
+      "sha256": "47c4dd08810c25c01b79f736e34b0abbff1b61f43eb94981051385f3ad1d8693",
+      "bytes": 8160,
+      "physical_lines": 194,
+      "nonblank_lines": 142
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/CommonCore.lean",
+      "sha256": "0370142daad3a1bbbdd11f1f411c318677272dd9c629030cb07073c370f4e056",
+      "bytes": 5679,
+      "physical_lines": 142,
+      "nonblank_lines": 107
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/CommonFoundation.lean",
+      "sha256": "268ec3613110936dbafb898154b002d5a6ffc4fab4c83b075a00f8447e736316",
+      "bytes": 5807,
+      "physical_lines": 158,
+      "nonblank_lines": 114
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Core.lean",
+      "sha256": "04672bc53e7ed5bcd576da243ad18fa251dfb1fc6019c43612f37ee6b8a68601",
+      "bytes": 119,
+      "physical_lines": 6,
+      "nonblank_lines": 4
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section01.lean",
+      "sha256": "67f666f04336f4f4e972f3623e792b07685e05f8c31bdfd5bfcf6a574b3863a6",
+      "bytes": 7969,
+      "physical_lines": 194,
+      "nonblank_lines": 171
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section02.lean",
+      "sha256": "de2bfbd29c3cfd0b7e1972e6bcd1f18d0327d574a46f21f754009fecac375f85",
+      "bytes": 13634,
+      "physical_lines": 331,
+      "nonblank_lines": 289
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section03.lean",
+      "sha256": "62fb525ef8076bf7ae46bde74cba514292573faae1c0e6541ff96aba4df47769",
+      "bytes": 11130,
+      "physical_lines": 298,
+      "nonblank_lines": 261
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section04.lean",
+      "sha256": "6d8c613ca0a1a7e10bbcaa9af862e18fb4ac963dc5496e96c66233eb481c6172",
+      "bytes": 2786,
+      "physical_lines": 88,
+      "nonblank_lines": 69
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section05.lean",
+      "sha256": "e7594517c92570fa7edc26ea92b754a3ec06e489a05df84f66d897073ac59ac8",
+      "bytes": 8468,
+      "physical_lines": 210,
+      "nonblank_lines": 181
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section06.lean",
+      "sha256": "4952cea8350bc68c3867c5b6f25e87dd7a210195c1d26018b6dd091a17c1da93",
+      "bytes": 9489,
+      "physical_lines": 212,
+      "nonblank_lines": 187
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter05/Section07.lean",
+      "sha256": "e99331a3364bc9b49f5c5da13c21bbb40bb95a0fa813fd545637f1b29840ef1c",
+      "bytes": 23274,
+      "physical_lines": 549,
+      "nonblank_lines": 474
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06.lean",
+      "sha256": "e147ee9ca338b2a3e946b3225ff73a82a070f556d8ef58e6e034284358d51e8d",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/AllSections.lean",
+      "sha256": "73c747f07c257b4462bb245b154849f58c82d01cddca382330aedd9ca84686f2",
+      "bytes": 229,
+      "physical_lines": 10,
+      "nonblank_lines": 8
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Common.lean",
+      "sha256": "6b9d346eb02d4e949dd11afcee0a71a8540d5cec60e5e1fc61aa67b8b396d5e6",
+      "bytes": 21526,
+      "physical_lines": 469,
+      "nonblank_lines": 369
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Core.lean",
+      "sha256": "aaeb658399677dcd3830b524f97b82788c6cddae5f86d559a5e135b0e9b9f4e6",
+      "bytes": 89,
+      "physical_lines": 3,
+      "nonblank_lines": 2
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Section01.lean",
+      "sha256": "1837ef26cc07d06380377cd39b4f84016b453e39da05c10966880b865962fe89",
+      "bytes": 4610,
+      "physical_lines": 130,
+      "nonblank_lines": 112
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Section02.lean",
+      "sha256": "7f5253aa46e71874636e28fc65f704af160dcfcb343ebc53f7c8fb6bd90fcb21",
+      "bytes": 6085,
+      "physical_lines": 168,
+      "nonblank_lines": 147
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Section03.lean",
+      "sha256": "6e6e070921a5c6df4c95e60969dca87384d7e4eb74ef1b819718b156677ca2a3",
+      "bytes": 3990,
+      "physical_lines": 113,
+      "nonblank_lines": 96
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Section04.lean",
+      "sha256": "5e1a01e7a80cee0765472f97b4c63cdbe5aed7de5998257fbe53fb7c6433506b",
+      "bytes": 7628,
+      "physical_lines": 201,
+      "nonblank_lines": 175
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter06/Section05.lean",
+      "sha256": "60f740cac6da0ea8199e5d5d76d34e6ef1b5d7d670b11e6944979a3bfa6dd237",
+      "bytes": 3617,
+      "physical_lines": 100,
+      "nonblank_lines": 85
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07.lean",
+      "sha256": "5128713016330526567d163d6aeb81fa67c764d7f8fa356ff0ccf0f5457643d1",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/AllSections.lean",
+      "sha256": "c8bcb01f56416990c02a38535a3ff15fc82018d77aa4af9ecff9eeb5b09a7b4e",
+      "bytes": 445,
+      "physical_lines": 18,
+      "nonblank_lines": 16
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Common.lean",
+      "sha256": "d34d5021cb53f513f49c65a4928def7c1d60b4aabfec767748215180d6398e59",
+      "bytes": 49015,
+      "physical_lines": 1152,
+      "nonblank_lines": 970
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Core.lean",
+      "sha256": "24595bcdbf58c6030b0d78a72d02ba43be779289cd9ec52946fb6ed8d35468e9",
+      "bytes": 89,
+      "physical_lines": 3,
+      "nonblank_lines": 2
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section01.lean",
+      "sha256": "633deb53837ac10a388c1035919c34641d652fc12c4243fea7e42cba9cac65af",
+      "bytes": 9848,
+      "physical_lines": 223,
+      "nonblank_lines": 192
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section02.lean",
+      "sha256": "7da3b6864d2b008b5eddf0e6db497eb87d58bbbd2ac1b3ea92d0d1926e3f8746",
+      "bytes": 11979,
+      "physical_lines": 272,
+      "nonblank_lines": 241
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section03.lean",
+      "sha256": "9850d20f01677dba9f5f7dbe88d70d5df2e31f28ac50ffc46affd19061d4cfc3",
+      "bytes": 4846,
+      "physical_lines": 107,
+      "nonblank_lines": 94
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section04.lean",
+      "sha256": "e5c4ab26f68e45003363bd065e12fa4ea679908bc952726282e19f46742d26cf",
+      "bytes": 11186,
+      "physical_lines": 255,
+      "nonblank_lines": 214
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section05.lean",
+      "sha256": "5a3c63ada38bb02d1f9fbac0aafcd0c08bac5e1a0ea7fffa83b8c9e79a33db35",
+      "bytes": 8759,
+      "physical_lines": 199,
+      "nonblank_lines": 177
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section06.lean",
+      "sha256": "6b4bb51355888aadac13cd6174234b3bb9585a3590fc78b1cdab98a89e3beb5e",
+      "bytes": 5234,
+      "physical_lines": 131,
+      "nonblank_lines": 108
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section07.lean",
+      "sha256": "3ac55ad6ac13c86cbb80c661221487229a0f7470559ef2465ba1d5ecc81ff5f2",
+      "bytes": 1171,
+      "physical_lines": 38,
+      "nonblank_lines": 30
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section08.lean",
+      "sha256": "157a988416fe538d3406764f6141802001acb66e4005de97425e57d3c218323f",
+      "bytes": 4791,
+      "physical_lines": 130,
+      "nonblank_lines": 108
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section09.lean",
+      "sha256": "060e39aa746c2474e76a9e8cf7ddd79823e366f0192f4fca464b0e76358d91c1",
+      "bytes": 5758,
+      "physical_lines": 145,
+      "nonblank_lines": 122
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section10.lean",
+      "sha256": "a66cb267a721b3afc0c57a72b6866a5380c88f791c8619f8cfefb5e43faeaf2c",
+      "bytes": 8342,
+      "physical_lines": 202,
+      "nonblank_lines": 176
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section11.lean",
+      "sha256": "ffc45297825868fedd623e62a75206266d50652bbd79020fc3f0d1e7c2e50066",
+      "bytes": 7240,
+      "physical_lines": 172,
+      "nonblank_lines": 146
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section12.lean",
+      "sha256": "d418fb1f65ef9c28afc44c166c3fe8d4d336e54e755c7343d08b2867d5df5a84",
+      "bytes": 16709,
+      "physical_lines": 373,
+      "nonblank_lines": 321
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter07/Section13.lean",
+      "sha256": "63389b1d56c205317b2e43a0c30553aae21d98cb99e1198cde9c6544729794cf",
+      "bytes": 707,
+      "physical_lines": 24,
+      "nonblank_lines": 16
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08.lean",
+      "sha256": "59011c0802cafff8d040f5536fe9fd54cfaad0c4db083da6ebd3ccea753ff706",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/AllSections.lean",
+      "sha256": "96c660b9c1f0c2c71aea74c3133b47cbdbfdefbc0aa54862651f117aafa1d71e",
+      "bytes": 256,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Common.lean",
+      "sha256": "a5d8a7daff6a7a50e30dc6342ab8f38dc1dc7afaf49ee4c86462681a975cd27e",
+      "bytes": 40058,
+      "physical_lines": 814,
+      "nonblank_lines": 687
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Core.lean",
+      "sha256": "df9488eb35e675fb7c35d2797f82e560c1a735d8249ff99e98e661804dd0fa88",
+      "bytes": 89,
+      "physical_lines": 3,
+      "nonblank_lines": 2
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section01.lean",
+      "sha256": "942491c738d7798eb02a7f3a99a9024006823623bab93e1898b0ff65773a59f1",
+      "bytes": 4004,
+      "physical_lines": 111,
+      "nonblank_lines": 91
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section02.lean",
+      "sha256": "e125144a1ba1ba60e6a76d7c9242cdac8948f6cad5baee8c2586d01108500283",
+      "bytes": 1701,
+      "physical_lines": 49,
+      "nonblank_lines": 40
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section03.lean",
+      "sha256": "82e03c6a6dbbcd35ad9f377d53febd39f4061951c1d9b44554ffbca722f0f721",
+      "bytes": 1758,
+      "physical_lines": 50,
+      "nonblank_lines": 40
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section04.lean",
+      "sha256": "846814c2b6ef4c8fd45fb19cc9fcb4446aa8996ebe3ffe33bda751a0f5d4dc35",
+      "bytes": 3187,
+      "physical_lines": 83,
+      "nonblank_lines": 68
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section05.lean",
+      "sha256": "4dd985dcd2e5c4a019df0a4dbed1a144daa505e18c22a255c09f7c875d0aaecd",
+      "bytes": 4177,
+      "physical_lines": 120,
+      "nonblank_lines": 93
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter08/Section06.lean",
+      "sha256": "6d7bc0a922e72c65ce239a1556a708c99bda991782cb129e37af80fac6e47ce2",
+      "bytes": 538,
+      "physical_lines": 21,
+      "nonblank_lines": 15
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09.lean",
+      "sha256": "bc81861e22f5cb5220d50f7de4b7d026480d0bc9dd4b501a0da847a8c168ccdd",
+      "bytes": 110,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/AllSections.lean",
+      "sha256": "1744015ebead1268b8bc4c0b72d1d222093cec5f87daa077c08eb107a7cfeee6",
+      "bytes": 364,
+      "physical_lines": 15,
+      "nonblank_lines": 13
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Common.lean",
+      "sha256": "2e33f109223216ead54ac5c03a05725676c5074573dbe3fa0cce8b884a07bda8",
+      "bytes": 58958,
+      "physical_lines": 1226,
+      "nonblank_lines": 1080
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Core.lean",
+      "sha256": "d85ae3e508429b66e360d5b2f7069fecb7abb7c1012de5a96831f35dd604617d",
+      "bytes": 89,
+      "physical_lines": 3,
+      "nonblank_lines": 2
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section01.lean",
+      "sha256": "d656449d5bc39f17ad6d570ace0150173e0fd842b8929dcd88ef0954c9009e83",
+      "bytes": 2101,
+      "physical_lines": 62,
+      "nonblank_lines": 50
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section02.lean",
+      "sha256": "2cb0c518e1ba3cfe21d0ed1a16edce3464c738f05b42c0deebd019a91ad30221",
+      "bytes": 1663,
+      "physical_lines": 57,
+      "nonblank_lines": 45
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section03.lean",
+      "sha256": "0b861166502e6dc90bb49e343714c75b4d71d9172d6c780810d59dc4ec53cad6",
+      "bytes": 537,
+      "physical_lines": 25,
+      "nonblank_lines": 18
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section04.lean",
+      "sha256": "7e5b5e1f37f95ca7ec7cfa62e5f0980319ab94fdb0afd7bfd843f9738df633f0",
+      "bytes": 868,
+      "physical_lines": 34,
+      "nonblank_lines": 26
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section05.lean",
+      "sha256": "20b2bbf698d3c9badf31503bbadd590cc8bd5b5bbb5aed4253b3c5153310fb04",
+      "bytes": 2009,
+      "physical_lines": 70,
+      "nonblank_lines": 58
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section06.lean",
+      "sha256": "d93e04ae450c7223cfd500015f0f93172c18084856f74dcb51605b86ac46157d",
+      "bytes": 4876,
+      "physical_lines": 124,
+      "nonblank_lines": 104
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section07.lean",
+      "sha256": "88ab94e3297144b714ddeb779993c80b6d183995d5e0b6beedf7deabcda5a2d0",
+      "bytes": 4737,
+      "physical_lines": 110,
+      "nonblank_lines": 95
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section08.lean",
+      "sha256": "60848f5a8b78044a9e83df84378c2b3e0b08188273d8cb10ae6a9930eb02e334",
+      "bytes": 1997,
+      "physical_lines": 66,
+      "nonblank_lines": 52
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section09.lean",
+      "sha256": "fca468ecd03627a1e70011690cc37199a05f0c03887486b6a9eb82c6a526377e",
+      "bytes": 3887,
+      "physical_lines": 119,
+      "nonblank_lines": 96
+    },
+    {
+      "path": "EnumerationTheory/Lean/Chapter09/Section10.lean",
+      "sha256": "59f4f263fc82404ed37ea6a13504ab6fb4e591c7350a687bbf19a85615830c03",
+      "bytes": 564,
+      "physical_lines": 21,
+      "nonblank_lines": 15
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/Finite/Convergence.lean",
+      "sha256": "e2d3ceb264e3145188a4d0762e0b386d4409364bf32cbe8d670d3aee1fb886bb",
+      "bytes": 26456,
+      "physical_lines": 569,
+      "nonblank_lines": 539
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/Finite/Core.lean",
+      "sha256": "6d6b6966cd7e7f49ca3a15d376cde7bd74e3434f67cbbe37adc3f5bd59843b6d",
+      "bytes": 5562,
+      "physical_lines": 146,
+      "nonblank_lines": 131
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/Finite/TotalVariation.lean",
+      "sha256": "fd18b4f79b34562a168e20b057cd1f90dcea76d1ca4108a3ea4da2ec9c7b9f09",
+      "bytes": 30749,
+      "physical_lines": 646,
+      "nonblank_lines": 621
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/Analysis/CstarAlgebra/Classes.lean",
+      "sha256": "abdbe4a1f0cf86f0d0a83f68c71af3633019ccf7735d31b3539f1e31f62c0038",
+      "bytes": 18392,
+      "physical_lines": 418,
+      "nonblank_lines": 379
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/Combinatorics/Quiver/Cyclic.lean",
+      "sha256": "40fab95f4e79e7ddf049f3f3ab2e7cc9b9bd5c763cf4b234a8f8a0bbdfaeca5f",
+      "bytes": 12510,
+      "physical_lines": 287,
+      "nonblank_lines": 262
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/Combinatorics/Quiver/Path.lean",
+      "sha256": "9ddaf28b548531189acb4353295c48318a6e61fe1a821f460f8b9b7b30e2bcfd",
+      "bytes": 47851,
+      "physical_lines": 1113,
+      "nonblank_lines": 971
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/Data/List.lean",
+      "sha256": "49a3d61432b813c9df5c90f3f1d5e3fa19005f6d1359261e1a4c3a5ec8a186ea",
+      "bytes": 26876,
+      "physical_lines": 679,
+      "nonblank_lines": 622
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Aperiodic.lean",
+      "sha256": "a055294cd5eaac5656128c2d710e7da7fb1e666cf611f952d791e81bd4738abc",
+      "bytes": 4471,
+      "physical_lines": 97,
+      "nonblank_lines": 87
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/CollatzWielandt.lean",
+      "sha256": "eaa7aba2530c18c1d8512c40f6dacc64cd2b19362f79c2b67848ec1ab0d06fdd",
+      "bytes": 39977,
+      "physical_lines": 888,
+      "nonblank_lines": 834
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Dominance.lean",
+      "sha256": "56434c55006ff4580bf72a843abb91f0aa3976763ba035f2c68196c2faf6dbdf",
+      "bytes": 59974,
+      "physical_lines": 1242,
+      "nonblank_lines": 1185
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Irreducible.lean",
+      "sha256": "b923a771e199c88d746cf133a06839a04fe4c2315891ba2c3e8ecdf2a870d713",
+      "bytes": 27189,
+      "physical_lines": 622,
+      "nonblank_lines": 608
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Lemmas.lean",
+      "sha256": "35e32c739c6decc9d547f1e78e02d0031ee847142cd6e7bbd95519c0435e45f5",
+      "bytes": 20040,
+      "physical_lines": 447,
+      "nonblank_lines": 423
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Multiplicity.lean",
+      "sha256": "f71ecdbdac54a4b341256a0437019857decf92473dc3f4cec6b1d0b4a8eb2b29",
+      "bytes": 12663,
+      "physical_lines": 273,
+      "nonblank_lines": 267
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Primitive.lean",
+      "sha256": "137ce18ee64ab1d26277e63b4ae728b54efb96207883d7b3746cec718f77138e",
+      "bytes": 15682,
+      "physical_lines": 308,
+      "nonblank_lines": 287
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Stochastic.lean",
+      "sha256": "f07f9f5043908eb4fde5c758991dc1edf1d0777aaf78c95c269a9838a55decf9",
+      "bytes": 3656,
+      "physical_lines": 81,
+      "nonblank_lines": 75
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/PerronFrobenius/Uniqueness.lean",
+      "sha256": "a6af041c10dcf70081366c5cc8a5265986187dfe6719732e28ebf75711ba0795",
+      "bytes": 4503,
+      "physical_lines": 97,
+      "nonblank_lines": 89
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/LinearAlgebra/Matrix/Spectrum.lean",
+      "sha256": "b29e609d80ade42813c175691ebb4afabd31fc681abb828d70d5c24b760baa44",
+      "bytes": 32360,
+      "physical_lines": 696,
+      "nonblank_lines": 618
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/Topology/Compactness/ExtremeValueUSC.lean",
+      "sha256": "02cdafbfc3d69e43dffe6d6119b3cbfd510a1927b808633e102e62293a99f795",
+      "bytes": 9323,
+      "physical_lines": 204,
+      "nonblank_lines": 189
+    },
+    {
+      "path": "EnumerationTheory/Lean/MCMC/PF/aux.lean",
+      "sha256": "9266d99589394001e2252f68bf4bffb2d012235c65ec499ca86cf4506a73474c",
+      "bytes": 34862,
+      "physical_lines": 850,
+      "nonblank_lines": 738
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter00/BernoulliProbe.lean",
+      "sha256": "33e39a46780381483c11d983b33a70df16ff1c355efbe51684e70a37c1baf12a",
+      "bytes": 2575,
+      "physical_lines": 79,
+      "nonblank_lines": 70
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter00/DensityProbe.lean",
+      "sha256": "ef719e7f3be96b84fb7c5424a54c8c0b71bf801cd8ed956528dd5bc69861031f",
+      "bytes": 1635,
+      "physical_lines": 59,
+      "nonblank_lines": 58
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter00/ProofProbe.lean",
+      "sha256": "b6763cf79f316eacab78d47af262b7d53fcbe8d7e916bc576f632d009747362c",
+      "bytes": 36362,
+      "physical_lines": 852,
+      "nonblank_lines": 819
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter00/Section06Counterexample.lean",
+      "sha256": "3089f088d48ec101af3249d782a779f57160bc3b998e79d7d6cc7a668fdc4b7d",
+      "bytes": 948,
+      "physical_lines": 38,
+      "nonblank_lines": 28
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter02/CirclePushProbe.lean",
+      "sha256": "f63a80e7e86f2e2029b124bc72408ad85143d1d6022b0e6278f830dadd86eedb",
+      "bytes": 4365,
+      "physical_lines": 114,
+      "nonblank_lines": 103
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter02/HerglotzProbe.lean",
+      "sha256": "3f64c3cb2bc2b4aa68fe8a366ca496d1e409e2027d2eb77697479a63829ed736",
+      "bytes": 14471,
+      "physical_lines": 304,
+      "nonblank_lines": 281
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter02/HilbertSchmidtProbe.lean",
+      "sha256": "0b8250ea1ee068f16b4bb271f6d9981cf3d559c7db1e26e625cd55a231055107",
+      "bytes": 573,
+      "physical_lines": 19,
+      "nonblank_lines": 13
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter02/MeanProbe.lean",
+      "sha256": "34d44aa2e6cba0ad68f438ed746bce1b4aea2c5e7aca4985516d37506763a90a",
+      "bytes": 2146,
+      "physical_lines": 52,
+      "nonblank_lines": 51
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter02/SpectralMeasureProbe.lean",
+      "sha256": "6a90f8336addf2d269244d8f4061e441f6a36f7ee60a7b170d76a003bb73f749",
+      "bytes": 4585,
+      "physical_lines": 120,
+      "nonblank_lines": 107
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/AnalyticProbe.lean",
+      "sha256": "b7f80697298d2b3bf510bcc4fc9cc7708a8fecc2c0bd4f201cfbb0dbfd67971a",
+      "bytes": 383,
+      "physical_lines": 8,
+      "nonblank_lines": 7
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/Counterexample.lean",
+      "sha256": "5e60eaea94225fa5f699d50af99b7ebff4f975403c9fd43dae2e5e6eef33b620",
+      "bytes": 4581,
+      "physical_lines": 133,
+      "nonblank_lines": 119
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/DynamicsProbe.lean",
+      "sha256": "191689aa57a85b607a0490e375724f1898b10758f22cd21f39b6660beb0e0093",
+      "bytes": 333,
+      "physical_lines": 12,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/InvertibilityProbe.lean",
+      "sha256": "39653ef120ae390b12ba7ae430b7afbda9efadb1cccf71f60a7e1e00067b6126",
+      "bytes": 5502,
+      "physical_lines": 140,
+      "nonblank_lines": 130
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/MeasureAlgebraLtwoCheck.lean",
+      "sha256": "a0667c2e2eeadf657a578e11768ee8d1729200ada05470beb25db9b2b1b1f74c",
+      "bytes": 160,
+      "physical_lines": 4,
+      "nonblank_lines": 3
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/Scratch.lean",
+      "sha256": "060d4bdfaebfef05a7bf246d3f237578b1ea8d08c2fd6ecf2a9c3885e213ab9d",
+      "bytes": 785,
+      "physical_lines": 17,
+      "nonblank_lines": 16
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/Section02FactorCheck.lean",
+      "sha256": "76219d0d16de2d1c2c0360db2545a6b2ff6b7a3f60ffc021fb33fa4368b40e37",
+      "bytes": 1096,
+      "physical_lines": 30,
+      "nonblank_lines": 24
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/StandardBorelProbe.lean",
+      "sha256": "16c80648fa26ca01a407e0781844f76a517ab6c08373a7ba4e53e2d0dc1e6a07",
+      "bytes": 5069,
+      "physical_lines": 124,
+      "nonblank_lines": 109
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/StoneDynamicsProbe.lean",
+      "sha256": "4cdc501bdf2bbb3dfa20bc3f242fd77b2d7b340500b631d99a28947f50cb47dc",
+      "bytes": 369,
+      "physical_lines": 11,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/Chapter04/UniformMixingCounterexample.lean",
+      "sha256": "94165e1c9879cda5f65bbe14ef9883dae3bb4022534a54973dd6e8d7119a664c",
+      "bytes": 1855,
+      "physical_lines": 61,
+      "nonblank_lines": 51
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/General/EntropyProbe.lean",
+      "sha256": "370b9eff2989fcccfdb35f7b309d289a72e85b577799e597f107082f12cc9999",
+      "bytes": 261,
+      "physical_lines": 11,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/General/FinalStatementAudit.lean",
+      "sha256": "6f1992f678b6624335937dbaaf8a7c7c5121286fda304958a55f8fbeafee12b5",
+      "bytes": 13235,
+      "physical_lines": 274,
+      "nonblank_lines": 249
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/General/LibraryProbe.lean",
+      "sha256": "c21abc2b49b1fca7e39fc768d301e2a190043b0d6c3e32ad8d2b88c97ff71c9c",
+      "bytes": 2481,
+      "physical_lines": 82,
+      "nonblank_lines": 78
+    },
+    {
+      "path": "EnumerationTheory/Lean/Tests/General/StatementFidelityProbe.lean",
+      "sha256": "8b90cf58496a1dffb5cbcb1dfcc0d1b180ef9777c751163ae85a0f067ae86c41",
+      "bytes": 319,
+      "physical_lines": 12,
+      "nonblank_lines": 10
+    },
+    {
+      "path": "EnumerationTheory/Lean/Textbook.lean",
+      "sha256": "6913ab7812a55d39e05f12ee7c56a62cde07407d5986cbec29fb547180fc3674",
+      "bytes": 369,
+      "physical_lines": 11,
+      "nonblank_lines": 9
+    },
+    {
+      "path": "EnumerationTheory/share/Lean/BHKMultipleKhintchine.lean",
+      "sha256": "95c46ff54504303599ebdabe495c4a6e54be0f40347f22abd84d88775edd8858",
+      "bytes": 1696,
+      "physical_lines": 44,
+      "nonblank_lines": 36
+    },
+    {
+      "path": "EnumerationTheory/share/Lean/NLFirst_Pfd28c3cf0fb145e58f2b0f19d4e83368.lean",
+      "sha256": "48e49139d6952ada14ab2a3030e2dcb49fd52021de5f8a288c6319eeb2467dd6",
+      "bytes": 4158,
+      "physical_lines": 97,
+      "nonblank_lines": 89
+    },
+    {
+      "path": "EnumerationTheory/share/Lean/NLFirst_Pfd28c3cf0fb145e58f2b0f19d4e83368_Chapter02.lean",
+      "sha256": "77f68b61d4badaaff7aa82f8655c134d869979567303e70b4e8116b53b0eaab4",
+      "bytes": 2924,
+      "physical_lines": 72,
+      "nonblank_lines": 60
+    }
+  ]
+}

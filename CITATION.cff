@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use this Lean appendix, please cite the MathCoPilot paper and the repository release."
+title: "MathCoPilot Lean Appendix"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/PolaKuma/MathCoPilot-Appendix"
+url: "https://arxiv.org/abs/2607.14582"
+date-released: 2026-07-27
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+  - family-names: Liu
+    given-names: Jiayu
+  - family-names: Liu
+    given-names: Wenbin
+  - family-names: Huang
+    given-names: Zhenya
+  - family-names: Wang
+    given-names: Doudou
+  - family-names: Jiang
+    given-names: Yan
+  - family-names: Xu
+    given-names: Leiye
+  - family-names: Xiong
+    given-names: Tao
+  - family-names: Huang
+    given-names: Wen
+  - family-names: Liu
+    given-names: Qi
+  - family-names: Hu
+    given-names: Guoping
+  - family-names: Chen
+    given-names: Enhong
+  - family-names: Zhang
+    given-names: Mengping
+  - family-names: Ye
+    given-names: Xiangdong
+preferred-citation:
+  type: article
+  title: "MathCoPilot: An Interactive System for Human-AI Symbiotic Paradigm of Mathematical Research"
+  year: 2026
+  url: "https://arxiv.org/abs/2607.14582"
+  authors:
+    - family-names: Zhang
+      given-names: Junjie
+    - family-names: Liu
+      given-names: Jiayu
+    - family-names: Liu
+      given-names: Wenbin
+    - family-names: Huang
+      given-names: Zhenya
+    - family-names: Wang
+      given-names: Doudou
+    - family-names: Jiang
+      given-names: Yan
+    - family-names: Xu
+      given-names: Leiye
+    - family-names: Xiong
+      given-names: Tao
+    - family-names: Huang
+      given-names: Wen
+    - family-names: Liu
+      given-names: Qi
+    - family-names: Hu
+      given-names: Guoping
+    - family-names: Chen
+      given-names: Enhong
+    - family-names: Zhang
+      given-names: Mengping
+    - family-names: Ye
+      given-names: Xiangdong

@@ -1,0 +1,28 @@
+import Chapter02.Recurrence.BHKOrbitCoding
+import Chapter02.Recurrence.BohrWeightedUniform
+import Chapter02.Recurrence.Counterexamples
+import Chapter02.Recurrence.ForwardKroneckerBohr
+import Chapter02.Recurrence.ForwardKroneckerFactor
+import Chapter02.Recurrence.Khintchine
+import Chapter02.Recurrence.MultipleKhintchine
+import Chapter02.Recurrence.MultipleKhintchineAssembly
+import Chapter02.Recurrence.MultipleKhintchineBohrTriple
+import Chapter02.Recurrence.MultipleKhintchineCartesian
+import Chapter02.Recurrence.MultipleKhintchineCartesianCharacteristic
+import Chapter02.Recurrence.MultipleKhintchineCharacteristic
+import Chapter02.Recurrence.MultipleKhintchineFactor
+import Chapter02.Recurrence.MultipleKhintchineKronecker
+import Chapter02.Recurrence.MultipleKhintchineProductInvariant
+import Chapter02.Recurrence.MultipleKhintchineRelativeUniform
+import Chapter02.Recurrence.MultipleKhintchineSyndetic
+import Chapter02.Recurrence.MultipleKhintchineTensorContinuous
+import Chapter02.Recurrence.MultipleKhintchineTriple
+import Chapter02.Recurrence.MultipleKhintchineUniform
+import Chapter02.Recurrence.WeightedSyndeticTransfer
+
+/-!
+# Chapter 2 Recurrence aggregate
+
+Imports every support module in `Chapter02.Recurrence` for whole-directory
+compilation and repository-wide validation.
+-/

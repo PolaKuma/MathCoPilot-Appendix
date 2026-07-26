@@ -1,0 +1,13 @@
+.lake/
+**/.lake/
+**/.mathcopilot/
+**/*.olean
+**/*.ilean
+**/*.c
+**/*.bc
+**/*.o
+site/
+_site/
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,17 @@
+import Chapter04.Section01
+
+#check MeasurableSpace.CountablyGenerated
+#check MeasurableSpace.CountablyGenerated.exists_generator
+#check MeasurableSpace.CountablyGenerated.exists_countable_generator
+#check MeasurableSpace.countablyGenerated_iff
+#check MeasurableSpace.CountablySeparated
+#check MeasurableSpace.CountablySeparated.exists_generator
+#check MeasurableSpace.countablySeparated_iff
+#check MeasurableSpace.comap_generateFrom
+#check MeasurableSpace.generateFrom_image
+#check MeasurableSpace.pi_eq_generateFrom_projections
+#check TopologicalSpace.SeparableSpace.secondCountableTopology
+#check TopologicalSpace.exists_countable_basis
+#check TopologicalSpace.IsTopologicalBasis.exists_countable_subcover
+#check MeasurableSpace.borel_eq_generateFrom
+#check BorelSpace.measurable_eq

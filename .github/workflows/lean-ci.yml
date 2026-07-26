@@ -1,0 +1,31 @@
+name: Lean CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Lean and Mathlib cache
+        uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          build: false
+          use-mathlib-cache: true
+
+      - name: Verify frozen Lean sources
+        run: python3 scripts/source_integrity.py
+
+      - name: Build public appendix entries
+        run: lake -j 2 build AuditExp1Exp2 Textbook

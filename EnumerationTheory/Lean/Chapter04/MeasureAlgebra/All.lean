@@ -1,0 +1,24 @@
+import Chapter04.MeasureAlgebra.AlgebraClosure
+import Chapter04.MeasureAlgebra.InducedMeasureAlgebra
+import Chapter04.MeasureAlgebra.InducedMeasureAlgebraSeparable
+import Chapter04.MeasureAlgebra.InvariantSubSigmaFactor
+import Chapter04.MeasureAlgebra.InvariantSubSigmaQuotient
+import Chapter04.MeasureAlgebra.InverseLtwo
+import Chapter04.MeasureAlgebra.LinfClosure
+import Chapter04.MeasureAlgebra.LtwoProjection
+import Chapter04.MeasureAlgebra.LtwoPullback
+import Chapter04.MeasureAlgebra.MeasureAlgebraDynamics
+import Chapter04.MeasureAlgebra.MeasureAlgebraLtwo
+import Chapter04.MeasureAlgebra.MeasureAlgebraPullback
+import Chapter04.MeasureAlgebra.MeasureAlgebraRepresentation
+import Chapter04.MeasureAlgebra.MeasureAlgebraSpatial
+import Chapter04.MeasureAlgebra.MeasureAlgebraStone
+import Chapter04.MeasureAlgebra.MeasureAlgebraStoneDynamics
+import Chapter04.MeasureAlgebra.QuotientBoolean
+
+/-!
+# Chapter04.MeasureAlgebra aggregate
+
+Imports every support module in `Chapter04.MeasureAlgebra` for whole-directory
+compilation and repository-wide validation.
+-/

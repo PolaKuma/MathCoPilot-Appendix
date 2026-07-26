@@ -1,0 +1,7 @@
+# MathCopilot run artifacts and generated checker reports.
+.mathcopilot/
+Lean/*.check.json
+
+# Local Lean build products if a Lake project is added around this source tree.
+.lake/
+build/

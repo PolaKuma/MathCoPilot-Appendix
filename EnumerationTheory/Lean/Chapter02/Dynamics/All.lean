@@ -1,0 +1,22 @@
+import Chapter02.Dynamics.CompactCodingDensity
+import Chapter02.Dynamics.CompactConfigurationMeasureOrbit
+import Chapter02.Dynamics.CompactErgodicOrbitHomogeneity
+import Chapter02.Dynamics.CompactForwardMinimalSubset
+import Chapter02.Dynamics.CompactGroupExtensionRecurrence
+import Chapter02.Dynamics.CompactGroupMinimalTranslation
+import Chapter02.Dynamics.CompactHaarFourfold
+import Chapter02.Dynamics.CompactMinimalGroupRotationUnique
+import Chapter02.Dynamics.CompactTwistedKernel
+import Chapter02.Dynamics.CompactUniqueErgodicCesaro
+import Chapter02.Dynamics.DenseRangeConvergentNet
+import Chapter02.Dynamics.DirectedMinimalInverseLimit
+import Chapter02.Dynamics.MinimalFactorOrbitClosure
+import Chapter02.Dynamics.MinimalOrbitUniverseLowering
+import Chapter02.Dynamics.ProMinimalInverseLimit
+
+/-!
+# Chapter 2 Dynamics aggregate
+
+Imports every support module in `Chapter02.Dynamics` for whole-directory
+compilation and repository-wide validation.
+-/

@@ -1,0 +1,59 @@
+import Chapter02.Spectral.AlmostPeriodic
+import Chapter02.Spectral.AlmostPeriodicIsometry
+import Chapter02.Spectral.CircleFourier
+import Chapter02.Spectral.CircleFourierUniqueness
+import Chapter02.Spectral.CircleLaurent
+import Chapter02.Spectral.CompactAbelianPeterWeyl
+import Chapter02.Spectral.CompactDiscrete
+import Chapter02.Spectral.CompactFredholm
+import Chapter02.Spectral.CompactHaarCharacters
+import Chapter02.Spectral.CompactHaarFourierUniqueness
+import Chapter02.Spectral.CompactHaarMixing
+import Chapter02.Spectral.CompactKernelConsequences
+import Chapter02.Spectral.CyclicMeasureType
+import Chapter02.Spectral.CyclicOrthogonalSingularity
+import Chapter02.Spectral.CyclicSpectralModel
+import Chapter02.Spectral.DenseMaximalVectors
+import Chapter02.Spectral.DirectSumMeasureCoordinates
+import Chapter02.Spectral.DirectSumSpectralModel
+import Chapter02.Spectral.EigenfunctionLemmas
+import Chapter02.Spectral.EigenvalueCountability
+import Chapter02.Spectral.FiniteCyclicCoordinates
+import Chapter02.Spectral.FiniteDirectSumOrthogonality
+import Chapter02.Spectral.FiniteSpectralRank
+import Chapter02.Spectral.Herglotz
+import Chapter02.Spectral.HilbertDirectSum
+import Chapter02.Spectral.HilbertSchmidtConsequences
+import Chapter02.Spectral.HilbertSchmidtInvariant
+import Chapter02.Spectral.IsometryWiener
+import Chapter02.Spectral.MaximalSpectralType
+import Chapter02.Spectral.MultiplicityStrata
+import Chapter02.Spectral.OrderedDirectSum
+import Chapter02.Spectral.OrderedMultiplicityDecomposition
+import Chapter02.Spectral.OrderedMultiplicitySupports
+import Chapter02.Spectral.OrderedMultiplicityVectors
+import Chapter02.Spectral.OrderedSpectralDecomposition
+import Chapter02.Spectral.OrderedSpectralUniqueness
+import Chapter02.Spectral.OrthogonalCyclicDecomposition
+import Chapter02.Spectral.PontryaginSeparation
+import Chapter02.Spectral.RadonNikodymTransfer
+import Chapter02.Spectral.SeparatedKernelDensity
+import Chapter02.Spectral.SpectralClassification
+import Chapter02.Spectral.SpectralDecomposition
+import Chapter02.Spectral.SpectralMeasure
+import Chapter02.Spectral.SpectralMeasureType
+import Chapter02.Spectral.SpectralMixing
+import Chapter02.Spectral.SpectralMultiplicityCounterexample
+import Chapter02.Spectral.SpectralPointMass
+import Chapter02.Spectral.SpectralRelations
+import Chapter02.Spectral.SpectralWiener
+import Chapter02.Spectral.TorusDualMatrixBridge
+import Chapter02.Spectral.WeakSpectrum
+import Chapter02.Spectral.WienerInvariant
+
+/-!
+# Chapter 2 Spectral aggregate
+
+Imports every support module in `Chapter02.Spectral` for whole-directory
+compilation and repository-wide validation.
+-/
