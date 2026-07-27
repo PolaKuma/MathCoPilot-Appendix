@@ -7,10 +7,10 @@ For a documentation site this is needlessly indirect.  This post-processing
 step rewrites only those empty leaf nodes as the same direct links doc-gen4
 already uses for nested leaf modules.
 
-The DG implementation modules are then replaced in the navigation by two
-curated links to the actual public results, ``Exp1.main_theorem`` and
-``Exp2.main_theorem``.  The implementation pages remain generated and
-searchable, so imports and declaration cross-references keep working.
+The DG modules are then grouped under one navigation folder.  It presents
+curated links to the two public results, ``Exp1.main_theorem`` and
+``Exp2.main_theorem``, followed by a collapsed ``Components`` folder containing
+all implementation and audit modules.
 
 The generated module pages, URLs, declarations, and Lean sources are unchanged.
 """
@@ -30,13 +30,13 @@ EMPTY_LEAF = re.compile(
 
 DG_MODULE_LINK = re.compile(
     r'<div class="nav_link"><a href="\./'
-    r"(?:AuditExp1Exp2|Exp[12][A-Za-z0-9_]*)"
-    r'\.html">[^<]+</a></div>'
+    r"(?P<module>AuditExp1Exp2|Exp[12][A-Za-z0-9_]*)"
+    r'\.html">(?P<label>[^<]+)</a></div>'
 )
 
-DG_MAIN_THEOREMS = (
+DG_HEADER = (
     '<details class="nav_sect" open>'
-    "<summary>DG main theorems</summary>"
+    "<summary>DG</summary>"
     '<div class="nav_link">'
     '<a href="./Exp1.html#Exp1.main_theorem">'
     "DG-1 — Upwind DG error analysis"
@@ -45,7 +45,6 @@ DG_MAIN_THEOREMS = (
     '<a href="./Exp2.html#Exp2.main_theorem">'
     "DG-2 — Gauss–Radau approximation"
     "</a></div>"
-    "</details>"
 )
 
 
@@ -65,17 +64,38 @@ def main() -> None:
         original,
     )
 
+    dg_matches = list(DG_MODULE_LINK.finditer(rewritten))
+    components = [
+        (match.group("module"), match.group("label"))
+        for match in dg_matches
+        if match.group("module") not in {"Exp1", "Exp2"}
+    ]
+    component_html = "".join(
+        '<div class="nav_link">'
+        f'<a href="./{module}.html">{label}</a>'
+        "</div>"
+        for module, label in components
+    )
+    dg_navigation = (
+        DG_HEADER
+        + '<details class="nav_sect"><summary>Components</summary>'
+        + component_html
+        + "</details></details>"
+    )
     dg_count = 0
 
     def replace_dg_module(_: re.Match[str]) -> str:
         nonlocal dg_count
         dg_count += 1
-        return DG_MAIN_THEOREMS if dg_count == 1 else ""
+        return dg_navigation if dg_count == 1 else ""
 
     rewritten = DG_MODULE_LINK.sub(replace_dg_module, rewritten)
     args.navbar.write_text(rewritten, encoding="utf-8")
     print(f"Rewrote {leaf_count} empty module nodes as direct links.")
-    print(f"Collapsed {dg_count} DG module links into two public theorem links.")
+    print(
+        f"Grouped {dg_count} DG module links under two public theorems "
+        f"and a {len(components)}-module Components folder."
+    )
 
     if args.style is not None:
         style = args.style.read_text(encoding="utf-8")
