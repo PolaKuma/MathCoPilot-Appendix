@@ -43,6 +43,7 @@ jobs:
         run: |
           mkdir -p site/docs
           cp -a .lake/build/doc/. site/docs/
+          python3 scripts/postprocess_doc_nav.py site/docs/navbar.html
           cat > site/index.html <<'HTML'
           <!doctype html>
           <html lang="en">
