@@ -37,7 +37,8 @@ jobs:
         run: |
           mkdir site
           tar -xf downloaded/artifact.tar -C site
-          python3 scripts/postprocess_doc_nav.py site/docs/navbar.html
+          python3 scripts/postprocess_doc_nav.py site/docs/navbar.html \
+            --style site/docs/style.css
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
